@@ -1,0 +1,15 @@
+body {
+    background: $backgroundColor;
+}
+
+.main {
+    width: 50%;
+    height: calc(100vh - 80px);
+    background: $secondaryColor;
+    margin: 0 auto;
+    .leftSidebar {
+        width: 30%;
+        height: 100%;
+        background: powderblue;
+    }
+}
