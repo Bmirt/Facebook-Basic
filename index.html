@@ -1,33 +1,101 @@
 <html>
-    <head>
-        <title>Facebook.Js</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="assets/styles/index.css">
-    </head>
-    <body>
 
-        <header class="header"></header>
+<head>
+    <title>Facebook.Js</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+</head>
 
-        <main class="main">
-            <aside class="leftSidebar"></aside>
-        </main>
+<body>
 
-        <aside class="rightSidebar">FriendsList</aside>
-        
-        
-        
-        <!-- MOCKS -->
+    <header class="header" id="app-root">
+        <div class="header__logo">
+            <div class="header__logo__div__left">
+                <span class="header__logo__icon">
+                    <i class="fab fa-facebook-square" style="font-size: 24px; color:white"></i>
+                </span>
+                <input class="header__logo__input">
+                <span class="header__logo__search">
+                    <i class="fa fa-search" style="font-size:18px; color: #979ba4"></i>
+                </span>
+            </div>
+            <div class="header__logo__div__right">
+                <ul class="header__logo__div__right__list">
+                    <li class="header__logo__div__right__list__item">
+                        <span class="header__logo__div__right__list__pic">
+                            <span class="header__whitec"></span>
+                        </span>
+                    </li>
+                    <li class="header__logo__div__right__list__item">Name</li>
+                    <li class="header__logo__div__right__list__item">
+                        <i class="fab fa-accessible-icon"></i>
+                    </li>
+                    <li class="header__logo__div__right__list__item">Home</li>
+                    <li class="header__logo__div__right__list__item">Find Friends</li>
+                    <li class="header__logo__div__right__list__item">
+                        <i class="fas fa-user-friends"></i>
+                    </li>
+                    <li class="header__logo__div__right__list__item">
+                        <i class="fab fa-facebook-messenger"></i>
+                    </li>
+                    <li class="header__logo__div__right__list__item">
+                        <i class="fas fa-bell"></i>
+                    </li>
+                    <li class="header__logo__div__right__list__item">
+                        <i class="fas fa-question-circle"></i>
+                    </li>
+                    <li class="header__logo__div__right__list__item">
+                        <i class="fas fa-caret-down"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="Navigation">
+        <div class="Navigation__list">
+            <div class="Navigation__list__left">
+                <ul class="Navigation__list__left__list">
+                    <li class="Navigation__list__left__list__item">Page</li>
+                    <li class="Navigation__list__left__list__item">Inbox</li>
+                    <li class="Navigation__list__left__list__item">Notifications</li>
+                    <li class="Navigation__list__left__list__item">Insights</li>
+                    <li class="Navigation__list__left__list__item">Pushing Tools</li>
+                    <li class="Navigation__list__left__list__item">Ad Center</li>
+                </ul>
+            </div>
+            <div class="Navigation__list__right">
+                <ul class="Navigation__list__left__list">
+                    <li class="Navigation__list__left__list__item">Settings</li>
+                    <li class="Navigation__list__left__list__item">Help<i class="fas fa-caret-down"></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
-        <script src="assets/mocks/statuses.js"></script>
-        <script src="assets/mocks/user.js"></script>
+    <main class="main">
+        <aside class="leftSidebar"></aside>
+    </main>
 
-        <!-- FUNCTIONS -->
-        <script src="assets/js/General.js"></script>
-        <script src="assets/js/Login.js"></script>
-        <script src="assets/js/Friends.js"></script>
-        <script src="assets/js/Header.js"></script>
-        <script src="assets/js/Timeline.js"></script>
-        <script src="assets/js/App.js"></script>
-        <script>App.render();</script>
-    </body>
+    <aside class="rightSidebar">FriendsList</aside>
+
+
+
+    <!-- MOCKS -->
+
+    <script src="assets/mocks/statuses.js"></script>
+    <script src="assets/mocks/user.js"></script>
+
+    <!-- FUNCTIONS -->
+    <script src="assets/js/General.js"></script>
+    <script src="assets/js/Login.js"></script>
+    <script src="assets/js/Friends.js"></script>
+    <script src="assets/js/Header.js"></script>
+    <script src="assets/js/Timeline.js"></script>
+    <script src="assets/js/App.js"></script>
+    <script>App.render();</script>
+</body>
+
 </html>

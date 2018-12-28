@@ -2,4 +2,123 @@
     width: 100%;
     height: 80px;
     background: $mainColor;
+    display: flex;
+    &__logo {
+        width: 1400px;
+        height: 60px;
+        // background: #2dbcf596;
+         display: flex;
+         justify-content: space-evenly;
+        margin: auto;
+    }
+    &__logo__div__left{
+        width: 500px;
+        height: 60px;
+        // background-color: green;
+        display: flex;
+        justify-content: space-between;
+        align-items: center
+    }
+    &__logo__icon{
+        width: 25px;
+        height: 25px;
+        // background-color: aquamarine;
+        display: flex;
+        align-items: center;
+    }
+    &__logo__input{
+        width: 420px;
+        height: 25px;
+        background-color: white;
+        margin-right: -10px;
+        border: none;
+    }
+    &__logo__search{
+        width: 45px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        background-color: #f5f6f7;
+    }
+    &__logo__div__right{
+     width: 600px;
+     height: 60px;
+    //  background-color: red;
+     display: flex;
+     align-items: center;
+
+    }
+    &__logo__div__right__list{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        color: white;
+    }
+    &__logo__div__right__list i{
+        color: black;
+        font-size: 20px;
+    }
+    &__logo__div__right__list__item{
+        margin-left: 25px;
+    }
+    &__logo__div__right__list__pic{
+        width:25px;
+        height: 25px;
+        background-color: blue;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    &__whitec{
+        background-color: white;
+        width: 15px;
+        height: 15px;
+        display: block;
+        border-radius: 50%
+    }
+}
+.Navigation{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+
+    &__list{
+        width: 1400px;
+        height: 80px;
+        margin: auto;
+        // background-color: green;
+        display: flex;
+       justify-content: space-around;
+
+    }
+    &__list__left{
+        width: 690px;
+        height: 80px;
+        // background-color: aqua;
+        display: flex;
+        align-items: center;
+        margin-left: -50px;
+    }
+    &__list__left__list{
+        list-style: none;
+        display: flex;
+        font-size: 18px;
+        color: black;
+    }
+    &__list__left__list__item{
+        margin-left: 30px;
+    }
+    &__list__right{
+        width: 180px;
+        height: 80px;
+        // background-color: blue;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 50px;
+    }
 }
