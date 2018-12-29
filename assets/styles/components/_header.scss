@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    height: 80px;
+    height: 60px;
     background: $mainColor;
     display: flex;
     &__logo {
@@ -8,7 +8,7 @@
         height: 60px;
         // background: #2dbcf596;
          display: flex;
-         justify-content: space-evenly;
+         justify-content: space-around;
         margin: auto;
     }
     &__logo__div__left{
@@ -17,7 +17,7 @@
         // background-color: green;
         display: flex;
         justify-content: space-between;
-        align-items: center
+        align-items: center;
     }
     &__logo__icon{
         width: 25px;
@@ -47,6 +47,7 @@
     //  background-color: red;
      display: flex;
      align-items: center;
+     margin-left: -200px;
 
     }
     &__logo__div__right__list{
@@ -61,7 +62,7 @@
         font-size: 20px;
     }
     &__logo__div__right__list__item{
-        margin-left: 25px;
+        margin-left: 15px;
     }
     &__logo__div__right__list__pic{
         width:25px;
@@ -82,13 +83,13 @@
     }
 }
 .Navigation{
-    height: 80px;
+    height: 50px;
     width: 100%;
     background-color: white;
 
     &__list{
         width: 1400px;
-        height: 80px;
+        height: 60px;
         margin: auto;
         // background-color: green;
         display: flex;
@@ -97,11 +98,11 @@
     }
     &__list__left{
         width: 690px;
-        height: 80px;
+        height: 50px;
         // background-color: aqua;
         display: flex;
         align-items: center;
-        margin-left: -50px;
+        margin-left: 15px;
     }
     &__list__left__list{
         list-style: none;
@@ -114,11 +115,11 @@
     }
     &__list__right{
         width: 180px;
-        height: 80px;
+        height: 50px;
         // background-color: blue;
         display: flex;
         align-items: center;
-        justify-content: flex-end;
-        margin-right: 50px;
+        // justify-content: flex-end;
+        margin-right: 220px;
     }
 }
