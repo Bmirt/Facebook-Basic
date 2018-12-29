@@ -7,6 +7,8 @@ body {
     height: calc(100vh - 80px);
     background: $secondaryColor;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
     .leftSidebar {
         width: 30%;
         height: 100%;
