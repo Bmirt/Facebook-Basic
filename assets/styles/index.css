@@ -251,11 +251,10 @@ body {
   background: powderblue;
 }
 
-.main .cover {
+.main .mainInfoContainer {
   display: block;
   width: 30%;
   height: 100%;
-  background: blue;
 }
 
 .rightSidebar {
