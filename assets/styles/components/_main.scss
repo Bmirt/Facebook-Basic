@@ -18,38 +18,66 @@ body {
         display: flex;
         flex-direction: column;
         .coverFoto{
-            width: 821px;
+            width: 796px;
             height: 306px;
             background-color: #273e6a;
         }
-        .coverButtons{
-            width: 822px;
+        .coverButtonsdiv{
+            width: 796px;
             height: 56px;
             border-radius: 6px;
             background-color: #ffffff;
             border: 1px solid #dddfe2;
-            .leftCoverButtonsdiv{
-                width: 248px;
-                height: 28px;
-                border-radius: 3px;
-                background-color: #f5f6f7;
-                border: 1px solid #dddfe2;
-                .leftCoverButton {
-                    // display: flex;
-                    // justify-items: space-between;
-                    a{
-                        display: inline-block;
+            display: flex;
+            align-items: center;
+            .coverButtonsWrapper{
+                // vertical-align: middle;
+                // height: auto;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .leftCoverButtonsdiv{
+                    width: 248px;
+                    height: 28px;
+                    border-radius: 3px;
+                    background-color: #f5f6f7;
+                    border: 1px solid #dddfe2;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin: 0 10px;
+                    .leftCoverButton {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        width: auto;
+                        a{
+                            border-radius: 3px;
+                            border: 1px solid #dddfe2;
+                        }
+                        span{
+                            font-size: 13px;
+                            line-height: 25px;
+                            color: #4b4f56;
+                            font-family: "S FU IText";
+                            padding: 0 0.55em;
+                        }
                     }
-                    span{
-                        font-size: 13px;
-                        letter-spacing: -1px;
-                        line-height: 25px;
-                        color: #4b4f56;
-                        font-family: "S FU IText";
+                }
+                .rightCoverButtonsdiv{
+                    padding: 0 10px;
+                    .rightCoverButton {
+                        width: 289px;
+                        height: 28px;
+                        border-radius: 2px;
+                        background-color: #4080ff;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                     }
                 }
             }
-            .rightCoverButtonsdiv{}
         }
     }
 }

@@ -262,37 +262,101 @@ body {
 }
 
 .main .mainInfoContainer .coverFoto {
-  width: 821px;
+  width: 796px;
   height: 306px;
   background-color: #273e6a;
 }
 
-.main .mainInfoContainer .coverButtons {
-  width: 822px;
+.main .mainInfoContainer .coverButtonsdiv {
+  width: 796px;
   height: 56px;
   border-radius: 6px;
   background-color: #ffffff;
   border: 1px solid #dddfe2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.main .mainInfoContainer .coverButtons .leftCoverButtonsdiv {
+.main .mainInfoContainer .coverButtonsdiv .coverButtonsWrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .mainInfoContainer .coverButtonsdiv .coverButtonsWrapper .leftCoverButtonsdiv {
   width: 248px;
   height: 28px;
   border-radius: 3px;
   background-color: #f5f6f7;
   border: 1px solid #dddfe2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 10px;
 }
 
-.main .mainInfoContainer .coverButtons .leftCoverButtonsdiv .leftCoverButton a {
-  display: inline-block;
+.main .mainInfoContainer .coverButtonsdiv .coverButtonsWrapper .leftCoverButtonsdiv .leftCoverButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: auto;
 }
 
-.main .mainInfoContainer .coverButtons .leftCoverButtonsdiv .leftCoverButton span {
+.main .mainInfoContainer .coverButtonsdiv .coverButtonsWrapper .leftCoverButtonsdiv .leftCoverButton a {
+  border-radius: 3px;
+  border: 1px solid #dddfe2;
+}
+
+.main .mainInfoContainer .coverButtonsdiv .coverButtonsWrapper .leftCoverButtonsdiv .leftCoverButton span {
   font-size: 13px;
-  letter-spacing: -1px;
   line-height: 25px;
   color: #4b4f56;
   font-family: "S FU IText";
+  padding: 0 0.55em;
+}
+
+.main .mainInfoContainer .coverButtonsdiv .coverButtonsWrapper .rightCoverButtonsdiv {
+  padding: 0 10px;
+}
+
+.main .mainInfoContainer .coverButtonsdiv .coverButtonsWrapper .rightCoverButtonsdiv .rightCoverButton {
+  width: 289px;
+  height: 28px;
+  border-radius: 2px;
+  background-color: #4080ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .rightSidebar {
