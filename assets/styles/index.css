@@ -252,9 +252,47 @@ body {
 }
 
 .main .mainInfoContainer {
-  display: block;
-  width: 30%;
-  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .mainInfoContainer .coverFoto {
+  width: 821px;
+  height: 306px;
+  background-color: #273e6a;
+}
+
+.main .mainInfoContainer .coverButtons {
+  width: 822px;
+  height: 56px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  border: 1px solid #dddfe2;
+}
+
+.main .mainInfoContainer .coverButtons .leftCoverButtonsdiv {
+  width: 248px;
+  height: 28px;
+  border-radius: 3px;
+  background-color: #f5f6f7;
+  border: 1px solid #dddfe2;
+}
+
+.main .mainInfoContainer .coverButtons .leftCoverButtonsdiv .leftCoverButton a {
+  display: inline-block;
+}
+
+.main .mainInfoContainer .coverButtons .leftCoverButtonsdiv .leftCoverButton span {
+  font-size: 13px;
+  letter-spacing: -1px;
+  line-height: 25px;
+  color: #4b4f56;
+  font-family: "S FU IText";
 }
 
 .rightSidebar {
