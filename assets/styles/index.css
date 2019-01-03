@@ -335,7 +335,7 @@ body {
 }
 
 .main .mainInfoContainer .coverFoto {
-  width: 796px;
+  width: 821px;
   height: 306px;
   background-color: #273e6a;
   overflow: hidden;
@@ -344,7 +344,7 @@ body {
 }
 
 .main .mainInfoContainer .coverButtonsdiv {
-  width: 796px;
+  width: 821px;
   height: 56px;
   border-radius: 6px;
   border-top-left-radius: 0;
@@ -440,7 +440,24 @@ body {
           justify-content: center;
 }
 
-.main .mainInfoContainer .createPost {
+.main .mainInfoContainer .pageContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main .mainInfoContainer .pageContent .postsArea {
+  background-color: pink;
+  width: 500px;
+  height: 155px;
+  margin-right: 6.5px;
+}
+
+.main .mainInfoContainer .pageContent .postsArea .createPost {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -450,19 +467,38 @@ body {
           flex-direction: column;
 }
 
-.main .mainInfoContainer .createPost .writePost {
+.main .mainInfoContainer .pageContent .postsArea .createPost .writePost {
   background-color: red;
   height: 50px;
 }
 
-.main .mainInfoContainer .createPost .textArea {
+.main .mainInfoContainer .pageContent .postsArea .createPost .textArea {
   background-color: green;
   height: 50px;
 }
 
-.main .mainInfoContainer .createPost .addObject {
+.main .mainInfoContainer .pageContent .postsArea .createPost .addObject {
   background-color: yellow;
   height: 50px;
+}
+
+.main .mainInfoContainer .pageContent .postsArea .posts {
+  border: 2px solid black;
+  height: 120px;
+  margin: 20px 0;
+}
+
+.main .mainInfoContainer .pageContent .postsArea .posts .post {
+  height: 50px;
+  background-color: black;
+  margin: 4px 0;
+}
+
+.main .mainInfoContainer .pageContent .otherpageinfo {
+  background-color: blue;
+  width: 308px;
+  height: 300px;
+  margin-left: 6.5px;
 }
 
 .rightSidebar {

@@ -54,7 +54,7 @@ body {
         display: flex;
         flex-direction: column;
         .coverFoto{
-            width: 796px;
+            width: 821px;
             height: 306px;
             background-color: #273e6a;
             // divshi arsebul obieqts awris divis migma myof nawilebs.
@@ -63,7 +63,7 @@ body {
             border-bottom: none;
         }
         .coverButtonsdiv{
-            width: 796px;
+            width: 821px;
             height: 56px;
             border-radius: 6px;
             border-top-left-radius: 0;
@@ -123,20 +123,46 @@ body {
                 }
             }
         }
-        .createPost{
+        .pageContent{
             display: flex;
-            flex-direction: column;
-            .writePost {
-                background-color: red;
-                height: 50px;
+            flex-direction: row;
+            .postsArea{
+                background-color: pink;
+                width: 500px;
+                height: 155px;
+                margin-right: 6.5px;
+                .createPost{
+                display: flex;
+                flex-direction: column;
+                    .writePost {
+                        background-color: red;
+                        height: 50px;
+                    }
+                    .textArea {
+                        background-color: green;
+                        height: 50px;
+                    }
+                    .addObject {
+                        background-color: yellow;
+                        height: 50px;
+                    }
+                }
+                .posts{
+                    border: 2px solid black;
+                    height: 120px;
+                    margin: 20px 0;
+                    .post {
+                        height: 50px;
+                        background-color: black;
+                        margin: 4px 0;
+                    }
+                }
             }
-            .textArea {
-                background-color: green;
-                height: 50px;
-            }
-            .addObject {
-                background-color: yellow;
-                height: 50px;
+            .otherpageinfo{
+                background-color: blue;
+                width: 308px;
+                height: 300px;
+                margin-left: 6.5px;
             }
         }
     }
