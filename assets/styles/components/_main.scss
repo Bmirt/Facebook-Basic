@@ -127,20 +127,26 @@ body {
             display: flex;
             flex-direction: row;
             .postsArea{
-                background-color: pink;
                 width: 500px;
-                height: 155px;
+                height: 157px;
+                border-radius: 5px;
+                background-color: #ffffff;
+                border: 1px solid #dddfe2;
                 margin-right: 6.5px;
                 .createPost{
                 display: flex;
                 flex-direction: column;
                     .writePost {
-                        background-color: red;
-                        height: 50px;
+                        display: flex;
+                        align-items: center;
                     }
                     .textArea {
-                        background-color: green;
-                        height: 50px;
+                        font-size: 15px;
+                        line-height: 25px;
+                        color: #a4a8ae !important;
+                        font-family: "S FU IText";
+                        display: flex;
+                        align-items: center;
                     }
                     .addObject {
                         background-color: yellow;
