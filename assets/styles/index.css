@@ -473,9 +473,11 @@ body {
 }
 
 .main .mainInfoContainer .pageContent .postsArea {
-  background-color: pink;
   width: 500px;
-  height: 155px;
+  height: 157px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 1px solid #dddfe2;
   margin-right: 6.5px;
 }
 
@@ -490,13 +492,25 @@ body {
 }
 
 .main .mainInfoContainer .pageContent .postsArea .createPost .writePost {
-  background-color: red;
-  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .createPost .textArea {
-  background-color: green;
-  height: 50px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #a4a8ae !important;
+  font-family: "S FU IText";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .createPost .addObject {
