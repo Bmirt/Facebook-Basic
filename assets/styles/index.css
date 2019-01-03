@@ -513,6 +513,44 @@ body {
           align-items: center;
 }
 
+.main .mainInfoContainer .pageContent .postsArea .createPost .textArea textarea {
+  border: none;
+  resize: none;
+  padding: 10px;
+}
+
+.main .mainInfoContainer .pageContent .postsArea .createPost .textArea ::-webkit-input-placeholder {
+  font-size: 15px;
+  line-height: 25px;
+  color: #a4a8ae;
+  font-family: "S FU IText";
+  vertical-align: middle;
+}
+
+.main .mainInfoContainer .pageContent .postsArea .createPost .textArea :-ms-input-placeholder {
+  font-size: 15px;
+  line-height: 25px;
+  color: #a4a8ae;
+  font-family: "S FU IText";
+  vertical-align: middle;
+}
+
+.main .mainInfoContainer .pageContent .postsArea .createPost .textArea ::-ms-input-placeholder {
+  font-size: 15px;
+  line-height: 25px;
+  color: #a4a8ae;
+  font-family: "S FU IText";
+  vertical-align: middle;
+}
+
+.main .mainInfoContainer .pageContent .postsArea .createPost .textArea ::placeholder {
+  font-size: 15px;
+  line-height: 25px;
+  color: #a4a8ae;
+  font-family: "S FU IText";
+  vertical-align: middle;
+}
+
 .main .mainInfoContainer .pageContent .postsArea .createPost .addObject {
   background-color: yellow;
   height: 50px;

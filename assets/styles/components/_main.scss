@@ -153,6 +153,19 @@ body {
                         font-family: "S FU IText";
                         display: flex;
                         align-items: center;
+                        textarea {
+                            border: none;
+                            resize: none;
+                            padding: 10px;
+                            
+                        }
+                        ::placeholder {
+                            font-size: 15px;
+                            line-height: 25px;
+                            color: #a4a8ae;
+                            font-family: "S FU IText";
+                            vertical-align: middle; 
+                        }
                     }
                     .addObject {
                         background-color: yellow;
