@@ -146,6 +146,17 @@ body {
                     .writePost {
                         display: flex;
                         align-items: center;
+                        .writePostbutton{
+                            color: #3578e5;
+                        }
+                        .writePostbutton:first-child {
+                            color: #4b4f56;
+                        }    
+                            span{
+                                font-size: 13px;
+                                line-height: 25px;
+                                font-family: "S FU IText";
+                            }
                     }
                     .textArea {
                         font-size: 15px;

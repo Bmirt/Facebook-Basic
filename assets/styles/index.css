@@ -501,6 +501,20 @@ body {
           align-items: center;
 }
 
+.main .mainInfoContainer .pageContent .postsArea .createPost .writePost .writePostbutton {
+  color: #3578e5;
+}
+
+.main .mainInfoContainer .pageContent .postsArea .createPost .writePost .writePostbutton:first-child {
+  color: #4b4f56;
+}
+
+.main .mainInfoContainer .pageContent .postsArea .createPost .writePost span {
+  font-size: 13px;
+  line-height: 25px;
+  font-family: "S FU IText";
+}
+
 .main .mainInfoContainer .pageContent .postsArea .createPost .textArea {
   font-size: 15px;
   line-height: 25px;
