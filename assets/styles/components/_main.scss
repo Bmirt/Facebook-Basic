@@ -123,5 +123,21 @@ body {
                 }
             }
         }
+        .createPost{
+            display: flex;
+            flex-direction: column;
+            .writePost {
+                background-color: red;
+                height: 50px;
+            }
+            .textArea {
+                background-color: green;
+                height: 50px;
+            }
+            .addObject {
+                background-color: yellow;
+                height: 50px;
+            }
+        }
     }
 }
