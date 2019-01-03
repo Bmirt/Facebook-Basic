@@ -57,18 +57,23 @@ body {
             width: 796px;
             height: 306px;
             background-color: #273e6a;
+            // divshi arsebul obieqts awris divis migma myof nawilebs.
+            overflow: hidden;
+            border: 1px solid #dddfe2;
+            border-bottom: none;
         }
         .coverButtonsdiv{
             width: 796px;
             height: 56px;
             border-radius: 6px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
             background-color: #ffffff;
             border: 1px solid #dddfe2;
+            border-top: none;
             display: flex;
             align-items: center;
             .coverButtonsWrapper{
-                // vertical-align: middle;
-                // height: auto;
                 width: 100%;
                 display: flex;
                 align-items: center;
@@ -76,30 +81,33 @@ body {
                 .leftCoverButtonsdiv{
                     width: 248px;
                     height: 28px;
-                    border-radius: 3px;
-                    background-color: #f5f6f7;
+                    border-radius:  3px;
                     border: 1px solid #dddfe2;
+                    background-color: #f5f6f7;
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
                     margin: 0 10px;
+                    .leftCoverButton:last-child {
+                        border-right: 0;
+                    }
                     .leftCoverButton {
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: space-between;
+                        border-right: 1px solid #dddfe2;
                         width: auto;
                         a{
-                            border-radius: 3px;
-                            border: 1px solid #dddfe2;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
                         }
                         span{
                             font-size: 13px;
                             line-height: 25px;
-                            color: #4b4f56;
+                            color: #7f7f7f;
                             font-family: "S FU IText";
                             padding: 0 0.55em;
                         }
                     }
+
                 }
                 .rightCoverButtonsdiv{
                     padding: 0 10px;
