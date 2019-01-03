@@ -98,6 +98,8 @@ body {
                             display: flex;
                             justify-content: center;
                             align-items: center;
+                            text-emphasis: none;
+                            text-decoration: none;
                         }
                         span{
                             font-size: 13px;
@@ -119,6 +121,10 @@ body {
                         display: flex;
                         align-items: center;
                         justify-content: center;
+                    }
+                    a{
+                        text-emphasis: none;
+                       text-decoration: none;
                     }
                 }
             }

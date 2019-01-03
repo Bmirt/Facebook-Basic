@@ -10,13 +10,6 @@
           box-sizing: border-box;
 }
 
-a {
-  -webkit-text-emphasis: none;
-          text-emphasis: none;
-  text-decoration: none;
-  color: white;
-}
-
 .Navigation__list__left__list a {
   color: black;
 }
@@ -89,6 +82,13 @@ body {
   color: white;
 }
 
+.header__logo__icon a {
+  -webkit-text-emphasis: none;
+          text-emphasis: none;
+  text-decoration: none;
+  color: white;
+}
+
 .header__logo__input {
   width: 42rem;
   height: 2.5rem;
@@ -126,6 +126,13 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.header__logo__div__right a {
+  -webkit-text-emphasis: none;
+          text-emphasis: none;
+  text-decoration: none;
+  color: white;
 }
 
 .header__logo__div__right__list {
@@ -194,6 +201,12 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.Navigation__list a {
+  -webkit-text-emphasis: none;
+          text-emphasis: none;
+  text-decoration: none;
 }
 
 .Navigation__list__left {
@@ -410,6 +423,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-text-emphasis: none;
+          text-emphasis: none;
+  text-decoration: none;
 }
 
 .main .mainInfoContainer .coverButtonsdiv .coverButtonsWrapper .leftCoverButtonsdiv .leftCoverButton span {
@@ -438,6 +454,12 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.main .mainInfoContainer .coverButtonsdiv .coverButtonsWrapper .rightCoverButtonsdiv a {
+  -webkit-text-emphasis: none;
+          text-emphasis: none;
+  text-decoration: none;
 }
 
 .main .mainInfoContainer .pageContent {

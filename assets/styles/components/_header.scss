@@ -29,6 +29,11 @@
         font-size:2.4rem;
         color: white;
     }
+    &__logo__icon a{
+        text-emphasis: none;
+        text-decoration: none;
+        color: white;
+    }
     &__logo__input{
         width: 42rem;
         height: 2.5rem;
@@ -53,7 +58,11 @@
      height: 5rem;
      display: flex;
      align-items: center;
-
+    }
+    &__logo__div__right a{
+        text-emphasis: none;
+        text-decoration: none;
+        color: white;
     }
     &__logo__div__right__list{
         list-style: none;
@@ -99,6 +108,10 @@
         display: flex;
        justify-content: space-between;
 
+    }
+    &__list a{
+        text-emphasis: none;
+        text-decoration: none;
     }
     &__list__left{
         width: 69rem;
