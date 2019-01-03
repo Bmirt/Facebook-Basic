@@ -9,15 +9,12 @@
     &__logo {
         width: 101rem;
         height: 60px;
-        // background: #2dbcf596;
          display: flex;
          justify-content: space-between;
-        // margin: auto;
     }
     &__logo__div__left{
         width: 50rem;
         height: 5rem;
-        // background-color: green;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -25,9 +22,12 @@
     &__logo__icon{
         width: 2.5rem;
         height: 2.5rem;
-        // background-color: aquamarine;
         display: flex;
         align-items: center;
+    }
+    &__logo__icon{
+        font-size:2.4rem;
+        color: white;
     }
     &__logo__input{
         width: 42rem;
@@ -42,15 +42,17 @@
         display: flex;
         align-items: center;
         justify-content:center;
-        background-color: #f5f6f7;
+        background-color: #f5f6f7;    
+    }
+    &__logo__search i{
+        font-size: 2.4rem;
+        color: #979ba4;
     }
     &__logo__div__right{
      width: 45rem;
      height: 5rem;
-    //  background-color: red;
      display: flex;
      align-items: center;
-    //  margin-left: -200px;
 
     }
     &__logo__div__right__list{
@@ -75,7 +77,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-
     }
     &__whitec{
         background-color: white;
@@ -95,8 +96,6 @@
     &__list{
         width: 105.5rem;
         height: 4.5rem;
-        // margin: auto;
-        // background-color: green;
         display: flex;
        justify-content: space-between;
 
@@ -104,7 +103,6 @@
     &__list__left{
         width: 69rem;
         height: 4.5rem;
-        // background-color: aqua;
         display: flex;
         align-items: center;
         margin-left: 15px;
@@ -128,11 +126,8 @@
     &__list__right{
         width: 18rem;
         height: 4.5rem;
-        // background-color: blue;
         display: flex;
         align-items: center;
-        // justify-content: flex-end;
-        // margin-right: 220px;
     }
     &__list__right i {
      font-size: 1rem;
