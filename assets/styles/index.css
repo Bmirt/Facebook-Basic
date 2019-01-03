@@ -338,14 +338,20 @@ body {
   width: 796px;
   height: 306px;
   background-color: #273e6a;
+  overflow: hidden;
+  border: 1px solid #dddfe2;
+  border-bottom: none;
 }
 
 .main .mainInfoContainer .coverButtonsdiv {
   width: 796px;
   height: 56px;
   border-radius: 6px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
   background-color: #ffffff;
   border: 1px solid #dddfe2;
+  border-top: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -371,8 +377,8 @@ body {
   width: 248px;
   height: 28px;
   border-radius: 3px;
-  background-color: #f5f6f7;
   border: 1px solid #dddfe2;
+  background-color: #f5f6f7;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -385,29 +391,31 @@ body {
   margin: 0 10px;
 }
 
+.main .mainInfoContainer .coverButtonsdiv .coverButtonsWrapper .leftCoverButtonsdiv .leftCoverButton:last-child {
+  border-right: 0;
+}
+
 .main .mainInfoContainer .coverButtonsdiv .coverButtonsWrapper .leftCoverButtonsdiv .leftCoverButton {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  border-right: 1px solid #dddfe2;
   width: auto;
 }
 
 .main .mainInfoContainer .coverButtonsdiv .coverButtonsWrapper .leftCoverButtonsdiv .leftCoverButton a {
-  border-radius: 3px;
-  border: 1px solid #dddfe2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main .mainInfoContainer .coverButtonsdiv .coverButtonsWrapper .leftCoverButtonsdiv .leftCoverButton span {
   font-size: 13px;
   line-height: 25px;
-  color: #4b4f56;
+  color: #7f7f7f;
   font-family: "S FU IText";
   padding: 0 0.55em;
 }
