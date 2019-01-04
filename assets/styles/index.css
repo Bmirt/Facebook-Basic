@@ -462,6 +462,10 @@ body {
   text-decoration: none;
 }
 
+.main .mainInfoContainer .coverButtonsdiv .coverButtonsWrapper .rightCoverButtonsdiv span {
+  color: #ffffff;
+}
+
 .main .mainInfoContainer .pageContent {
   display: -webkit-box;
   display: -ms-flexbox;
