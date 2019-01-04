@@ -502,17 +502,33 @@ body {
 }
 
 .main .mainInfoContainer .pageContent .postsArea .createPost .writePost .writePostbutton {
+  margin: 12px 0;
+  height: 20px;
   color: #3578e5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px;
+  border-right: 1px solid #dddfe2;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .createPost .writePost .writePostbutton:first-child {
   color: #4b4f56;
+  border: none;
+  padding-left: 0;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .createPost .writePost span {
   font-size: 13px;
-  line-height: 25px;
+  line-height: 15px;
   font-family: "S FU IText";
+  padding: 8px 3px 2px 3px;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .createPost .textArea {
@@ -526,6 +542,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-top: 1px solid #dddfe2;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .createPost .textArea textarea {
@@ -581,6 +598,7 @@ body {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  border-top: 1px solid #dddfe2;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .createPost .addObject .addObjectbutton {
@@ -596,6 +614,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-right: 15px;
+  padding: 8px;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .createPost .addObject .addObjectbutton span {
@@ -603,6 +623,7 @@ body {
   line-height: 25px;
   color: #4b4f56;
   font-family: "S FU IText";
+  padding: 3px;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .posts {

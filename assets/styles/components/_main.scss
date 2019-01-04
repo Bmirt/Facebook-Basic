@@ -147,15 +147,25 @@ body {
                         display: flex;
                         align-items: center;
                         .writePostbutton{
+                            margin: 12px 0;
+                            height: 20px;
                             color: #3578e5;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 8px;
+                            border-right: 1px solid #dddfe2;
                         }
                         .writePostbutton:first-child {
                             color: #4b4f56;
+                            border: none;
+                            padding-left: 0;
                         }    
                             span{
                                 font-size: 13px;
-                                line-height: 25px;
+                                line-height: 15px;
                                 font-family: "S FU IText";
+                                padding: 8px 3px 2px 3px;
                             }
                     }
                     .textArea {
@@ -165,6 +175,7 @@ body {
                         font-family: "S FU IText";
                         display: flex;
                         align-items: center;
+                        border-top: 1px solid #dddfe2;
                         textarea {
                             border: none;
                             resize: none;
@@ -185,6 +196,7 @@ body {
                         flex-direction: row;
                         align-items: center;
                         justify-content: flex-start;
+                        border-top: 1px solid #dddfe2;
                         .addObjectbutton{
                             height: 32px;
                             border-radius: 16px;
@@ -192,11 +204,14 @@ body {
                             display: flex;
                             justify-content: center;
                             align-items: center;
+                            margin-right: 15px;
+                            padding: 8px;
                             span {
                                 font-size: 13px;
                                 line-height: 25px;
                                 color: #4b4f56;
                                 font-family: "S FU IText";
+                                padding: 3px;
                             } 
                         }
                     }
