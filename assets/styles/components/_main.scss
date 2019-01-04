@@ -260,23 +260,26 @@ body {
                         }
                         .post{
                             .postTextDiv{
-                                padding: 6px;
+                                padding: 0 6px;
                                 p{
                                     font-size: 15px;
                                     line-height: 20px;
                                     color: #000000;
                                     font-family: "S FU IText";
-                                    font-weight: 300;                                
+                                    font-weight: 300;
+                                    padding: 6px;                                
                                 }
                             }
                             .postFotoDiv{
                                 width: 498px;
                                 overflow: hidden;
+                                height: 268px;
                             }
                             .postHeadingDiv{
                                 box-shadow: 0px 1px 0px rgba(0,0,0,0.13);
                                 background-color: #f2f3f5;
-                                margin: 4px 0px;
+                                padding: 6px;
+                                height: auto;
                                 a{
                                     font-size: 13px;
                                     line-height: 20px;
@@ -295,7 +298,23 @@ body {
                                 }
                             }
                         }
-                        .postButtons{}
+                        .postButtons{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-around;
+                            padding: 6px;
+                            i{
+                                font-size: 15px;
+                                line-height: 20px;
+                                color: #7a7e85;
+                            }
+                            span {
+                                font-size: 15px;
+                                line-height: 20px;
+                                color: #7a7e85;
+                                font-family: "S FU IText";
+                            }
+                        }
                     }
                 }
             }
