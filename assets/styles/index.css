@@ -631,15 +631,103 @@ body {
 }
 
 .main .mainInfoContainer .pageContent .postsArea .posts {
-  border: 2px solid black;
-  height: 120px;
-  margin: 20px 0;
+  height: auto;
+  width: auto;
 }
 
-.main .mainInfoContainer .pageContent .postsArea .posts .post {
-  height: 50px;
-  background-color: black;
-  margin: 4px 0;
+.main .mainInfoContainer .pageContent .postsArea .posts .postElements {
+  width: 500px;
+  height: auto;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 1px solid #dddfe2;
+}
+
+.main .mainInfoContainer .pageContent .postsArea .posts .postElements .companyinfoforpost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.main .mainInfoContainer .pageContent .postsArea .posts .postElements .companyinfoforpost .postLogodiv img {
+  padding: 6px;
+}
+
+.main .mainInfoContainer .pageContent .postsArea .posts .postElements .companyinfoforpost .postDateAndCompany {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 6px;
+}
+
+.main .mainInfoContainer .pageContent .postsArea .posts .postElements .companyinfoforpost .postDateAndCompany a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0c53aa;
+  font-family: "S FU IText";
+  font-weight: bold;
+}
+
+.main .mainInfoContainer .pageContent .postsArea .posts .postElements .companyinfoforpost .postDateAndCompany span {
+  font-size: 13px;
+  line-height: 20px;
+  color: #77777a;
+  font-family: "S FU IText";
+  font-weight: 300;
+}
+
+.main .mainInfoContainer .pageContent .postsArea .posts .postElements .post .postTextDiv {
+  padding: 6px;
+}
+
+.main .mainInfoContainer .pageContent .postsArea .posts .postElements .post .postTextDiv p {
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+  font-family: "S FU IText";
+  font-weight: 300;
+}
+
+.main .mainInfoContainer .pageContent .postsArea .posts .postElements .post .postFotoDiv {
+  width: 498px;
+  overflow: hidden;
+}
+
+.main .mainInfoContainer .pageContent .postsArea .posts .postElements .post .postHeadingDiv {
+  -webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.13);
+          box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.13);
+  background-color: #f2f3f5;
+  margin: 4px 0px;
+}
+
+.main .mainInfoContainer .pageContent .postsArea .posts .postElements .post .postHeadingDiv a {
+  font-size: 13px;
+  line-height: 20px;
+  padding: 6px;
+  color: #6e6e85;
+  font-family: "S FU IText";
+  text-decoration: none;
+}
+
+.main .mainInfoContainer .pageContent .postsArea .posts .postElements .post .postHeadingDiv h4 {
+  font-size: 15px;
+  line-height: 20px;
+  padding: 6px;
+  word-spacing: 3px;
+  color: #000000;
+  font-family: "S FU IText";
 }
 
 .main .mainInfoContainer .pageContent .otherpageinfo {
