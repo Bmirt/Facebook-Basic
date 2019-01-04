@@ -639,10 +639,31 @@ body {
 }
 
 .main .mainInfoContainer .pageContent .otherpageinfo {
-  background-color: blue;
   width: 308px;
   height: 300px;
   margin-left: 6.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.main .mainInfoContainer .pageContent .otherpageinfo .rating {
+  height: 30px;
+}
+
+.main .mainInfoContainer .pageContent .otherpageinfo .story {
+  height: 100px;
+}
+
+.main .mainInfoContainer .pageContent .otherpageinfo .community {
+  height: 40px;
 }
 
 .rightSidebar {

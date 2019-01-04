@@ -228,10 +228,21 @@ body {
                 }
             }
             .otherpageinfo{
-                background-color: blue;
                 width: 308px;
                 height: 300px;
                 margin-left: 6.5px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                .rating{
+                    height: 30px;
+                }
+                .story{
+                    height: 100px;
+                }
+                .community{
+                    height: 40px;
+                }
             }
         }
     }
