@@ -1,5 +1,5 @@
 var App = {
     render: function() {
-        //Header.render();
+        Header.render();
     }
 }
