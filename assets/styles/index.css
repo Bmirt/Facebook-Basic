@@ -971,7 +971,7 @@ body {
 .fidplsy {
   width: 500px;
   height: 160px;
-  background-color: blue;
+  background-color: white;
   margin-bottom: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -986,11 +986,12 @@ body {
 .div__left {
   width: 500px;
   height: 50px;
-  background-color: red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /* border-radius: 50%; */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .divpic {
@@ -998,12 +999,12 @@ body {
   height: 50px;
   border-radius: 50%;
   background-color: green;
+  overflow: hidden;
 }
 
 .divpic2 {
   width: 300px;
   height: 32px;
-  background-color: yellow;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1020,22 +1021,23 @@ body {
 .divpic3 {
   width: 150px;
   height: 17px;
-  background-color: pink;
-  margin-top: 0px;
+  color: #3578e5;
+  font-size: 2rem;
 }
 
 .divpic4 {
   width: 150px;
   height: 17px;
-  background-color: black;
-  color: white;
-  margin-top: -17px;
+  color: #4b4f56;
+  font-size: 1.5rem;
 }
 
 .divpic5 {
   width: 500px;
   height: 80px;
-  /* background-color: blueviolet; */
   border-bottom: 1px solid black;
+  font-weight: bold;
+  font-size: 1.4rem;
+  word-wrap: break-word;
 }
 /*# sourceMappingURL=index.css.map */

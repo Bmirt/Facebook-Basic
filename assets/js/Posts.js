@@ -2,8 +2,8 @@ const Post = {
     postCont: document.querySelector('.postsArea'),
 
     renderPost: function(text) {
-        let name = "Name and Surename";
-        let date = 26;
+        let name = "Dell";
+        let date = '@DellOfficial';
         // let text = "I like potato";
         
         var jijinga = document.createElement('div');
@@ -33,10 +33,19 @@ const Post = {
         left_5.innerHTML = date;
         left_3.appendChild(left_5);
 
-        var left_6 = document.createElement('div');
+        //Changing this
+        var left_6 = document.createElement('p');
         left_6.classList.add('divpic5');
         left_6.innerHTML = text;
         jijinga.appendChild(left_6);
+
+
+        var elem = document.createElement("img");
+        elem.setAttribute("src", "assets/styles/components/Dell-logo.png");
+        elem.setAttribute("height", "50");
+        elem.setAttribute("width", "50");
+        elem.setAttribute("alt", "Flower");
+        left_2.appendChild(elem);
 
         Post.postCont.appendChild(jijinga);
 
