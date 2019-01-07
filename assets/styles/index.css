@@ -51,7 +51,7 @@ body {
 }
 
 .header__logo {
-  width: 101rem;
+  width: 1010px;
   height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -62,8 +62,8 @@ body {
 }
 
 .header__logo__div__left {
-  width: 50rem;
-  height: 5rem;
+  width: 500px;
+  height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -76,8 +76,8 @@ body {
 }
 
 .header__logo__icon {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 25px;
+  height: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -87,7 +87,7 @@ body {
 }
 
 .header__logo__icon {
-  font-size: 2.4rem;
+  font-size: 24px;
   color: white;
 }
 
@@ -99,16 +99,16 @@ body {
 }
 
 .header__logo__input {
-  width: 42rem;
-  height: 2.5rem;
+  width: 420px;
+  height: 25px;
   background-color: white;
-  margin-right: -1rem;
+  margin-right: -10px;
   border: none;
 }
 
 .header__logo__search {
-  width: 4.5rem;
-  height: 2.5rem;
+  width: 45px;
+  height: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -127,8 +127,8 @@ body {
 }
 
 .header__logo__div__right {
-  width: 45rem;
-  height: 5rem;
+  width: 450px;
+  height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -166,8 +166,8 @@ body {
 }
 
 .header__logo__div__right__list__pic {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 25px;
+  height: 25px;
   background-color: blue;
   border-radius: 50%;
   display: -webkit-box;
@@ -183,14 +183,14 @@ body {
 
 .header__whitec {
   background-color: white;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 15px;
+  height: 15px;
   display: block;
   border-radius: 50%;
 }
 
 .Navigation {
-  height: 5rem;
+  height: 50px;
   width: 100%;
   background-color: white;
   display: -webkit-box;
@@ -202,8 +202,8 @@ body {
 }
 
 .Navigation__list {
-  width: 105.5rem;
-  height: 4.5rem;
+  width: 1055px;
+  height: 45px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -219,8 +219,8 @@ body {
 }
 
 .Navigation__list__left {
-  width: 69rem;
-  height: 4.5rem;
+  width: 690px;
+  height: 45px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -240,9 +240,9 @@ body {
 }
 
 .Navigation__list__left__list__item {
-  margin-left: 1.5rem;
+  margin-left: 15px;
   font-size: 1.4rem;
-  height: 4.4rem;
+  height: 44px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -256,8 +256,8 @@ body {
 }
 
 .Navigation__list__right {
-  width: 18rem;
-  height: 4.5rem;
+  width: 180px;
+  height: 45px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
