@@ -967,4 +967,75 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
 }
+
+.fidplsy {
+  width: 500px;
+  height: 160px;
+  background-color: blue;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 5px;
+}
+
+.div__left {
+  width: 500px;
+  height: 50px;
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* border-radius: 50%; */
+}
+
+.divpic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.divpic2 {
+  width: 300px;
+  height: 32px;
+  background-color: yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-left: 5px;
+}
+
+.divpic3 {
+  width: 150px;
+  height: 17px;
+  background-color: pink;
+  margin-top: 0px;
+}
+
+.divpic4 {
+  width: 150px;
+  height: 17px;
+  background-color: black;
+  color: white;
+  margin-top: -17px;
+}
+
+.divpic5 {
+  width: 500px;
+  height: 80px;
+  /* background-color: blueviolet; */
+  border-bottom: 1px solid black;
+}
 /*# sourceMappingURL=index.css.map */

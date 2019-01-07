@@ -2,7 +2,7 @@ const Post = {
     postCont: document.querySelector('.postsArea'),
 
     renderPost: function(text) {
-        let name = "guga";
+        let name = "Name and Surename";
         let date = 26;
         // let text = "I like potato";
         
