@@ -168,7 +168,6 @@ body {
 .header__logo__div__right__list__pic {
   width: 25px;
   height: 25px;
-  background-color: blue;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -179,6 +178,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  cursor: pointer;
 }
 
 .header__whitec {
@@ -1053,6 +1053,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-left: 10px;
 }
 
 .divpic {
@@ -1100,5 +1101,6 @@ body {
   font-weight: bold;
   font-size: 1.4rem;
   word-wrap: break-word;
+  padding: 5px 15px;
 }
 /*# sourceMappingURL=index.css.map */

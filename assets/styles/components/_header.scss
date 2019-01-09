@@ -83,11 +83,12 @@
     &__logo__div__right__list__pic{
         width:25px;
         height: 25px;
-        background-color: blue;
+        // background-color: blue;
         border-radius: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
+        cursor: pointer;
     }
     &__whitec{
         background-color: white;

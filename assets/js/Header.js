@@ -65,13 +65,11 @@ var Header = {
         listitem_1.classList.add('header__logo__div__right__list__item');
         rightlist.appendChild(listitem_1);
 
-        var listitem1_span = document.createElement('span');
-        listitem1_span.classList.add('header__logo__div__right__list__pic');
-        listitem_1.appendChild(listitem1_span);
-
-        var listitem1_span_white = document.createElement('span');
-        listitem1_span_white.classList.add('header__whitec');
-        listitem1_span.appendChild(listitem1_span_white);
+        var elem = document.createElement("img");
+        elem.classList.add('header__logo__div__right__list__pic');
+        elem.setAttribute("src", "assets/styles/components/Dell-logo.png");
+        elem.setAttribute("alt", "Flower");
+        listitem_1.appendChild(elem)
 
         var listitem_2 = document.createElement('li');
         listitem_2.classList.add('header__logo__div__right__list__item');
