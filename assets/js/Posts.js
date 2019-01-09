@@ -4,12 +4,10 @@ const Post = {
     renderPost: function(text) {
         let name = "Dell";
         let date = '@DellOfficial';
-        // let text = "I like potato";
         
         var jijinga = document.createElement('div');
         jijinga.classList.add('fidplsy');
-        // General.root.appendChild(jijinga);
-        // Adding stuff here
+
         var leftdiv = document.createElement('div');
         leftdiv.classList.add('div__left');
         jijinga.appendChild(leftdiv);
@@ -33,12 +31,10 @@ const Post = {
         left_5.innerHTML = date;
         left_3.appendChild(left_5);
 
-        //Changing this
         var left_6 = document.createElement('p');
         left_6.classList.add('divpic5');
         left_6.innerHTML = text;
         jijinga.appendChild(left_6);
-
 
         var elem = document.createElement("img");
         elem.setAttribute("src", "assets/styles/components/Dell-logo.png");
@@ -56,12 +52,6 @@ const Post = {
     render: function() {
         Post.renderPost();
     },
-
-    // removeitem:function() {
-    //     localStorage.clear();
-    //     // texting.innerHTML = '';
-    //     localStorage.setItem('items', JSON.stringify([]));
-    // }
 }
 
 let textarea = document.querySelector('textarea');
