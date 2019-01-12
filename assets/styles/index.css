@@ -447,8 +447,8 @@ body {
 }
 
 .main .mainInfoContainer .coverButtonsdiv .coverButtonsWrapper .leftCoverButtonsdiv .leftCoverButton span {
-  font-size: 13px;
-  line-height: 25px;
+  font-size: 1.3rem;
+  line-height: 2.5rem;
   color: #7f7f7f;
   font-family: "S FU IText";
   padding: 0 0.55em;
@@ -547,15 +547,15 @@ body {
 }
 
 .main .mainInfoContainer .pageContent .postsArea .createPost .writePost span {
-  font-size: 13px;
-  line-height: 15px;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
   font-family: "S FU IText";
   padding: 8px 3px 2px 3px;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .createPost .textArea {
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
   color: #a4a8ae !important;
   font-family: "S FU IText";
   display: -webkit-box;
@@ -574,32 +574,32 @@ body {
 }
 
 .main .mainInfoContainer .pageContent .postsArea .createPost .textArea ::-webkit-input-placeholder {
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
   color: #a4a8ae;
   font-family: "S FU IText";
   vertical-align: middle;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .createPost .textArea :-ms-input-placeholder {
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
   color: #a4a8ae;
   font-family: "S FU IText";
   vertical-align: middle;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .createPost .textArea ::-ms-input-placeholder {
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
   color: #a4a8ae;
   font-family: "S FU IText";
   vertical-align: middle;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .createPost .textArea ::placeholder {
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
   color: #a4a8ae;
   font-family: "S FU IText";
   vertical-align: middle;
@@ -641,8 +641,8 @@ body {
 }
 
 .main .mainInfoContainer .pageContent .postsArea .createPost .addObject .addObjectbutton span {
-  font-size: 13px;
-  line-height: 25px;
+  font-size: 1.3rem;
+  line-height: 2.5rem;
   color: #4b4f56;
   font-family: "S FU IText";
   padding: 3px;
@@ -691,16 +691,16 @@ body {
 
 .main .mainInfoContainer .pageContent .postsArea .posts .postElements .companyinfoforpost .postDateAndCompany a {
   text-decoration: none;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 1.6rem;
+  line-height: 2rem;
   color: #0c53aa;
   font-family: "S FU IText";
   font-weight: bold;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .posts .postElements .companyinfoforpost .postDateAndCompany span {
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 1.3rem;
+  line-height: 2rem;
   color: #77777a;
   font-family: "S FU IText";
   font-weight: 300;
@@ -711,8 +711,8 @@ body {
 }
 
 .main .mainInfoContainer .pageContent .postsArea .posts .postElements .post .postTextDiv p {
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   color: #000000;
   font-family: "S FU IText";
   font-weight: 300;
@@ -734,8 +734,8 @@ body {
 }
 
 .main .mainInfoContainer .pageContent .postsArea .posts .postElements .post .postHeadingDiv a {
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 1.3rem;
+  line-height: 2rem;
   padding: 6px;
   color: #6e6e85;
   font-family: "S FU IText";
@@ -743,10 +743,10 @@ body {
 }
 
 .main .mainInfoContainer .pageContent .postsArea .posts .postElements .post .postHeadingDiv h4 {
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   padding: 6px;
-  word-spacing: 3px;
+  word-spacing: 0.3rem;
   color: #000000;
   font-family: "S FU IText";
 }
@@ -765,14 +765,14 @@ body {
 }
 
 .main .mainInfoContainer .pageContent .postsArea .posts .postElements .postButtons i {
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   color: #7a7e85;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .posts .postElements .postButtons span {
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   color: #7a7e85;
   font-family: "S FU IText";
 }
@@ -809,9 +809,9 @@ body {
 }
 
 .main .mainInfoContainer .pageContent .otherpageinfo .rating span {
-  font-size: 13px;
+  font-size: 1.3rem;
   font-weight: bold;
-  line-height: 25px;
+  line-height: 2.5rem;
   padding: 5px;
   color: #000000;
   font-family: "S FU IText";
@@ -827,9 +827,9 @@ body {
 
 .main .mainInfoContainer .pageContent .otherpageinfo .story span {
   display: block;
-  font-size: 17px;
-  letter-spacing: 0px;
-  line-height: 20px;
+  font-size: 1.7rem;
+  letter-spacing: 0rem;
+  line-height: 2rem;
   padding: 5px 6px;
   color: #000000;
   font-family: "S FU IText";
@@ -838,9 +838,9 @@ body {
 }
 
 .main .mainInfoContainer .pageContent .otherpageinfo .story a {
-  font-size: 15px;
-  letter-spacing: 0px;
-  line-height: 20px;
+  font-size: 1.5rem;
+  letter-spacing: 0rem;
+  line-height: 2rem;
   color: #4267b2;
   font-family: "S FU IText";
   font-weight: 300;
@@ -869,16 +869,16 @@ body {
 }
 
 .main .mainInfoContainer .pageContent .otherpageinfo .community .communitydivheader span {
-  font-size: 17px;
-  line-height: 20px;
+  font-size: 1.7rem;
+  line-height: 2rem;
   color: #000000;
   font-family: "S FU IText";
 }
 
 .main .mainInfoContainer .pageContent .otherpageinfo .community .communitydivheader a {
-  font-size: 15px;
-  letter-spacing: 0px;
-  line-height: 20px;
+  font-size: 1.5rem;
+  letter-spacing: 0rem;
+  line-height: 2rem;
   color: #4267b2;
   font-family: "S FU IText";
   font-weight: 300;
@@ -899,9 +899,9 @@ body {
 }
 
 .main .mainInfoContainer .pageContent .otherpageinfo .community .communitydivinfo span {
-  font-size: 13px;
+  font-size: 1.3rem;
   font-weight: bold;
-  line-height: 25px;
+  line-height: 2.5rem;
   color: #000000;
   font-family: "S FU IText";
   font-weight: bold;
