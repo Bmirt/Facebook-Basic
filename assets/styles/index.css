@@ -419,7 +419,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 0 10px;
+  margin: 0 1em;
 }
 
 .main .mainInfoContainer .coverButtonsdiv .coverButtonsWrapper .leftCoverButtonsdiv .leftCoverButton:last-child {
@@ -455,7 +455,7 @@ body {
 }
 
 .main .mainInfoContainer .coverButtonsdiv .coverButtonsWrapper .rightCoverButtonsdiv {
-  padding: 0 10px;
+  padding: 0 1em;
 }
 
 .main .mainInfoContainer .coverButtonsdiv .coverButtonsWrapper .rightCoverButtonsdiv .rightCoverButton {
@@ -500,7 +500,7 @@ body {
   border-radius: 5px;
   background-color: #ffffff;
   border: 1px solid #dddfe2;
-  margin-right: 6.5px;
+  margin-right: 0.65em;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .createPost {
@@ -511,7 +511,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 10px;
+  padding: 1em;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .createPost .writePost {
@@ -524,7 +524,7 @@ body {
 }
 
 .main .mainInfoContainer .pageContent .postsArea .createPost .writePost .writePostbutton {
-  margin: 12px 0;
+  margin: 1.2em 0;
   height: 20px;
   color: #3578e5;
   display: -webkit-box;
@@ -536,7 +536,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 8px;
+  padding: 0.8em;
   border-right: 1px solid #dddfe2;
 }
 
@@ -550,7 +550,7 @@ body {
   font-size: 1.3rem;
   line-height: 1.5rem;
   font-family: "S FU IText";
-  padding: 8px 3px 2px 3px;
+  padding: 0.62em 0.23em 0.15em 0.23em;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .createPost .textArea {
@@ -570,7 +570,7 @@ body {
 .main .mainInfoContainer .pageContent .postsArea .createPost .textArea textarea {
   border: none;
   resize: none;
-  padding: 10px;
+  padding: 0.7em;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .createPost .textArea ::-webkit-input-placeholder {
@@ -636,8 +636,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-right: 15px;
-  padding: 8px;
+  margin-right: 1.5em;
+  padding: 0.8em;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .createPost .addObject .addObjectbutton span {
@@ -645,7 +645,7 @@ body {
   line-height: 2.5rem;
   color: #4b4f56;
   font-family: "S FU IText";
-  padding: 3px;
+  padding: 0.77em;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .posts {
@@ -675,7 +675,7 @@ body {
 }
 
 .main .mainInfoContainer .pageContent .postsArea .posts .postElements .companyinfoforpost .postLogodiv img {
-  padding: 6px;
+  padding: 0.6em;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .posts .postElements .companyinfoforpost .postDateAndCompany {
@@ -686,7 +686,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 6px;
+  padding: 0.6em;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .posts .postElements .companyinfoforpost .postDateAndCompany a {
@@ -707,7 +707,7 @@ body {
 }
 
 .main .mainInfoContainer .pageContent .postsArea .posts .postElements .post .postTextDiv {
-  padding: 0 6px;
+  padding: 0 0.6em;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .posts .postElements .post .postTextDiv p {
@@ -716,7 +716,7 @@ body {
   color: #000000;
   font-family: "S FU IText";
   font-weight: 300;
-  padding: 6px;
+  padding: 0.4em;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .posts .postElements .post .postFotoDiv {
@@ -729,14 +729,14 @@ body {
   -webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.13);
           box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.13);
   background-color: #f2f3f5;
-  padding: 6px;
+  padding: 0.6em;
   height: auto;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .posts .postElements .post .postHeadingDiv a {
   font-size: 1.3rem;
   line-height: 2rem;
-  padding: 6px;
+  padding: 0.46em;
   color: #6e6e85;
   font-family: "S FU IText";
   text-decoration: none;
@@ -745,7 +745,7 @@ body {
 .main .mainInfoContainer .pageContent .postsArea .posts .postElements .post .postHeadingDiv h4 {
   font-size: 1.5rem;
   line-height: 2rem;
-  padding: 6px;
+  padding: 0.4em;
   word-spacing: 0.3rem;
   color: #000000;
   font-family: "S FU IText";
@@ -761,7 +761,7 @@ body {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding: 6px;
+  padding: 0.6em;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .posts .postElements .postButtons i {
@@ -780,7 +780,7 @@ body {
 .main .mainInfoContainer .pageContent .otherpageinfo {
   width: 308px;
   height: 390px;
-  margin-left: 6.5px;
+  margin-left: 0.65em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -805,14 +805,14 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 10px 0;
+  margin: 1em 0;
 }
 
 .main .mainInfoContainer .pageContent .otherpageinfo .rating span {
   font-size: 1.3rem;
   font-weight: bold;
   line-height: 2.5rem;
-  padding: 5px;
+  padding: 0.38em;
   color: #000000;
   font-family: "S FU IText";
 }
@@ -830,11 +830,11 @@ body {
   font-size: 1.7rem;
   letter-spacing: 0rem;
   line-height: 2rem;
-  padding: 5px 6px;
+  padding: 0.3em 0.42em;
   color: #000000;
   font-family: "S FU IText";
   font-weight: 300;
-  margin-top: 5px;
+  margin-top: 0.3em;
 }
 
 .main .mainInfoContainer .pageContent .otherpageinfo .story a {
@@ -844,9 +844,9 @@ body {
   color: #4267b2;
   font-family: "S FU IText";
   font-weight: 300;
-  padding: 6px;
+  padding: 0.4em;
   text-decoration: none;
-  margin-bottom: 10px;
+  margin-bottom: 0.67em;
 }
 
 .main .mainInfoContainer .pageContent .otherpageinfo .community {
@@ -855,7 +855,7 @@ body {
   border-radius: 5px;
   background-color: #ffffff;
   border: 1px solid #dddfe2;
-  margin: 10px 0;
+  margin: 1em 0;
 }
 
 .main .mainInfoContainer .pageContent .otherpageinfo .community .communitydivheader {
@@ -865,7 +865,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 0px 6px;
+  margin: 0em 0.6em;
 }
 
 .main .mainInfoContainer .pageContent .otherpageinfo .community .communitydivheader span {
@@ -895,7 +895,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0px 6px;
+  margin: 0em 0.6em;
 }
 
 .main .mainInfoContainer .pageContent .otherpageinfo .community .communitydivinfo span {
@@ -905,12 +905,12 @@ body {
   color: #000000;
   font-family: "S FU IText";
   font-weight: bold;
-  padding: 3px;
+  padding: 0.23em;
 }
 
 .main .mainInfoContainer .pageContent .otherpageinfo .community .communitydivinfo i {
   color: #7f7f7f;
-  padding: 2px 3px;
+  padding: 0.15em 0.23em;
 }
 
 .leftSidebar {
