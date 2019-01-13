@@ -1105,6 +1105,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   border-radius: 5px;
+  margin-top: 0.5em;
 }
 
 .div__left {
@@ -1117,6 +1118,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-left: 10px;
+  margin-top: 0.5em;
 }
 
 .divpic {
@@ -1148,6 +1150,7 @@ body {
   height: 17px;
   color: #3578e5;
   font-size: 2rem;
+  margin-bottom: 0.5em;
 }
 
 .divpic4 {
