@@ -11,6 +11,7 @@ var friendList = {
 
             var createFriend= document.createElement('li');
             createFriend.classList.add('rightSidebar__list__item')
+            createFriend.onclick = function() {displayPopUp(this)}
             var findUl = document.querySelector('.rightSidebar__list')
 
 
