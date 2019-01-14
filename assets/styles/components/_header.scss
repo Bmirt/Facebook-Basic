@@ -51,6 +51,9 @@
         justify-content:center;
         background-color: #f5f6f7;    
     }
+    &__logo__search:hover{
+        cursor: pointer;
+    }
     &__logo__search i{
         font-size: 1.4rem;
         color: #979ba4;

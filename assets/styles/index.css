@@ -122,6 +122,10 @@ body {
   background-color: #f5f6f7;
 }
 
+.header__logo__search:hover {
+  cursor: pointer;
+}
+
 .header__logo__search i {
   font-size: 1.4rem;
   color: #979ba4;
@@ -1165,7 +1169,6 @@ body {
   width: 500px;
   height: 80px;
   border-bottom: 1px solid black;
-  font-weight: bold;
   font-size: 1.4rem;
   word-wrap: break-word;
   padding: 5px 15px;
