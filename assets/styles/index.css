@@ -374,7 +374,7 @@ body {
 .main .mainInfoContainer .coverFoto {
   width: 821px;
   height: 306px;
-  background-color: #273e6a;
+  background-color: #ffffff;
   overflow: hidden;
   border: 1px solid #dddfe2;
   border-bottom: none;
@@ -480,6 +480,10 @@ body {
           justify-content: center;
 }
 
+.main .mainInfoContainer .coverButtonsdiv .coverButtonsWrapper .rightCoverButtonsdiv .rightCoverButton:hover {
+  cursor: pointer;
+}
+
 .main .mainInfoContainer .coverButtonsdiv .coverButtonsWrapper .rightCoverButtonsdiv a {
   -webkit-text-emphasis: none;
           text-emphasis: none;
@@ -544,6 +548,10 @@ body {
           align-items: center;
   padding: 0.8em;
   border-right: 1px solid #dddfe2;
+}
+
+.main .mainInfoContainer .pageContent .postsArea .createPost .writePost .writePostbutton:hover {
+  cursor: pointer;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .createPost .writePost .writePostbutton:first-child {
@@ -652,6 +660,10 @@ body {
   color: #4b4f56;
   font-family: "S FU IText";
   padding: 0.77em;
+}
+
+.main .mainInfoContainer .pageContent .postsArea .createPost .addObject .addObjectbutton:hover {
+  cursor: pointer;
 }
 
 .main .mainInfoContainer .pageContent .postsArea .posts {

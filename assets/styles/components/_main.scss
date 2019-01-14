@@ -58,7 +58,7 @@ body {
         .coverFoto{
             width: 821px;
             height: 306px;
-            background-color: #273e6a;
+            background-color: #ffffff;
             // divshi arsebul obieqts awris divis migma myof nawilebs.
             overflow: hidden;
             border: 1px solid #dddfe2;
@@ -124,6 +124,9 @@ body {
                         align-items: center;
                         justify-content: center;
                     }
+                    .rightCoverButton:hover{
+                        cursor: pointer;
+                    }
                     a{
                         text-emphasis: none;
                        text-decoration: none;
@@ -160,6 +163,9 @@ body {
                             align-items: center;
                             padding: 0.8em;
                             border-right: 1px solid #dddfe2;
+                        }
+                        .writePostbutton:hover {
+                            cursor: pointer;
                         }
                         .writePostbutton:first-child {
                             color: #4b4f56;
@@ -218,6 +224,9 @@ body {
                                 font-family: "S FU IText";
                                 padding: 0.77em;
                             } 
+                        }
+                        .addObjectbutton:hover{
+                            cursor: pointer;
                         }
                     }
                 }
