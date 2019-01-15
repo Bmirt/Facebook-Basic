@@ -63,6 +63,10 @@ body {
             overflow: hidden;
             border: 1px solid #dddfe2;
             border-bottom: none;
+            img {
+                width: 821px;
+                height: 306px;
+            }
         }
         .coverButtonsdiv{
             width: 821px;
@@ -100,7 +104,6 @@ body {
                             display: flex;
                             justify-content: center;
                             align-items: center;
-                            text-emphasis: none;
                             text-decoration: none;
                         }
                         span{
@@ -128,11 +131,11 @@ body {
                         cursor: pointer;
                     }
                     a{
-                        text-emphasis: none;
                        text-decoration: none;
                     }
                     span{
                         color: #ffffff;
+                        padding: 0.5em;
                     }
                 }
             }

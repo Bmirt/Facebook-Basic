@@ -380,6 +380,11 @@ body {
   border-bottom: none;
 }
 
+.main .mainInfoContainer .coverFoto img {
+  width: 821px;
+  height: 306px;
+}
+
 .main .mainInfoContainer .coverButtonsdiv {
   width: 821px;
   height: 56px;
@@ -447,8 +452,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-text-emphasis: none;
-          text-emphasis: none;
   text-decoration: none;
 }
 
@@ -485,13 +488,12 @@ body {
 }
 
 .main .mainInfoContainer .coverButtonsdiv .coverButtonsWrapper .rightCoverButtonsdiv a {
-  -webkit-text-emphasis: none;
-          text-emphasis: none;
   text-decoration: none;
 }
 
 .main .mainInfoContainer .coverButtonsdiv .coverButtonsWrapper .rightCoverButtonsdiv span {
   color: #ffffff;
+  padding: 0.5em;
 }
 
 .main .mainInfoContainer .pageContent {
