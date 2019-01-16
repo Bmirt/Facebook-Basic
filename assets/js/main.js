@@ -141,8 +141,92 @@ var mainContainer = {
         fas_fa_pen.classList.add('fas', 'fa-pen');
         rightCoverButtonSpan2.appendChild(fas_fa_pen);
     },
-    renderCreatePost : function() {
+    renderPostArea : function() {
+        var pageContent = document.createElement('div');
+        pageContent.classList.add('pageContent');
+        startingPoint_main.appendChild(pageContent);
 
+        var postsArea = document.createElement('div');
+        postsArea.classList.add('postsArea');
+        pageContent.appendChild(postsArea);
+
+        var createPost = document.createElement('div');
+        createPost.classList.add('createPost');
+        postsArea.appendChild(createPost);
+
+        var writePost = document.createElement('div');
+        writePost.classList.add('writePost');
+        createPost.appendChild(writePost);
+
+        // 1 ღილაკი ==========================================    
+        var writePostbutton1 = document.createElement('div');
+        writePostbutton1.classList.add('writePostbutton');
+        writePost.appendChild(writePostbutton1);
+
+        var writePostbuttonimg1 = document.createElement('img');
+        writePostbuttonimg1.setAttribute('src', "assets/styles/components/Zimages/createpost/createpost/Pen.png");
+        writePostbuttonimg1.setAttribute('alt', "writeposticon");
+        writePostbutton1.appendChild(writePostbuttonimg1);
+
+        var writePostbuttonspan1 = document.createElement('span');
+        writePostbuttonspan1.innerHTML = 'Create Post';
+        writePostbutton1.appendChild(writePostbuttonspan1);
+
+        // 2 ღილაკი ==========================================    
+        var writePostbutton2 = document.createElement('div');
+        writePostbutton2.classList.add('writePostbutton');
+        writePost.appendChild(writePostbutton2);
+
+        var writePostbuttonimg2 = document.createElement('img');
+        writePostbuttonimg2.setAttribute('src', "assets/styles/components/Zimages/createpost/createpost/live.png");
+        writePostbuttonimg2.setAttribute('alt', "Livevideoicon");
+        writePostbutton2.appendChild(writePostbuttonimg2);
+
+        var writePostbuttonspan2 = document.createElement('span');
+        writePostbuttonspan2.innerHTML = 'Live';
+        writePostbutton2.appendChild(writePostbuttonspan2);
+
+        // 3 ღილაკი ==========================================    
+        var writePostbutton3 = document.createElement('div');
+        writePostbutton3.classList.add('writePostbutton');
+        writePost.appendChild(writePostbutton3);
+
+        var writePostbuttonimg3 = document.createElement('img');
+        writePostbuttonimg3.setAttribute('src', "assets/styles/components/Zimages/createpost/createpost/calendar.png");
+        writePostbuttonimg3.setAttribute('alt', "Eventscedjolericon");
+        writePostbutton3.appendChild(writePostbuttonimg3);
+
+        var writePostbuttonspan3 = document.createElement('span');
+        writePostbuttonspan3.innerHTML = 'Event';
+        writePostbutton3.appendChild(writePostbuttonspan3);
+
+        // 4 ღილაკი ==========================================    
+        var writePostbutton4 = document.createElement('div');
+        writePostbutton4.classList.add('writePostbutton');
+        writePost.appendChild(writePostbutton4);
+
+        var writePostbuttonimg4 = document.createElement('img');
+        writePostbuttonimg4.setAttribute('src', "assets/styles/components/Zimages/createpost/createpost/percent.png");
+        writePostbuttonimg4.setAttribute('alt', "makeanoffericon");
+        writePostbutton4.appendChild(writePostbuttonimg4);
+
+        var writePostbuttonspan4 = document.createElement('span');
+        writePostbuttonspan4.innerHTML = 'Offer';
+        writePostbutton4.appendChild(writePostbuttonspan4);
+
+        // 5 ღილაკი ==========================================    
+        var writePostbutton5 = document.createElement('div');
+        writePostbutton5.classList.add('writePostbutton');
+        writePost.appendChild(writePostbutton5);
+
+        var writePostbuttonimg5 = document.createElement('img');
+        writePostbuttonimg5.setAttribute('src', "assets/styles/components/Zimages/createpost/createpost/briefcase.png");
+        writePostbuttonimg5.setAttribute('alt', "announceajobicon");
+        writePostbutton5.appendChild(writePostbuttonimg5);
+
+        var writePostbuttonspan5 = document.createElement('span');
+        writePostbuttonspan5.innerHTML = 'Job';
+        writePostbutton5.appendChild(writePostbuttonspan5);
     },
     renderRating : function() {
 
@@ -150,7 +234,7 @@ var mainContainer = {
     render : function() {
         mainContainer.renderCover();
         mainContainer.renderCoverButtons();
-        mainContainer.renderCreatePost();
+        mainContainer.renderPostArea();
         mainContainer.renderRating();
     }
 }
