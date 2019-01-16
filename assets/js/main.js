@@ -249,7 +249,7 @@ var mainContainer = {
         textAreaText.setAttribute('cols', "60");
         textAreaText.setAttribute('rows', "2");
         textArea.appendChild(textAreaText); 
-        
+// ================================================================================
         var addObject = document.createElement('div');
         addObject.classList.add('addObject');
         createPost.appendChild(addObject);
@@ -309,7 +309,130 @@ var mainContainer = {
         addObjectbutton4img.setAttribute('src', "assets/styles/components/Zimages/createpost/foto/menu.png");
         addObjectbutton4img.setAttribute('alt', "menuicon");
         addObjectbutton4.appendChild(addObjectbutton4img);
+// ===========================================================================
+        var posts = document.createElement('div');
+        posts.classList.add('posts');
+        postsArea.appendChild(posts);
 
+        var postElements = document.createElement('div');
+        postElements.classList.add('postElements');
+        posts.appendChild(postElements);
+
+        var companyInfoForPost = document.createElement('div');
+        companyInfoForPost.classList.add('companyInfoForPost');
+        postElements.appendChild(companyInfoForPost);  
+        
+        var postLogodiv = document.createElement('div');
+        postLogodiv.classList.add('postLogodiv');
+        companyInfoForPost.appendChild(postLogodiv);
+
+        var postLogodivimg = document.createElement('img');
+        postLogodivimg.setAttribute('src', "assets/styles/components/Zimages/createpost/writepost/Dell-logo-small.png");
+        postLogodivimg.setAttribute('alt', "companylogoicon");
+        postLogodiv.appendChild(postLogodivimg);
+
+        var postDateAndCompany = document.createElement('div');
+        postDateAndCompany.classList.add('postDateAndCompany');
+        companyInfoForPost.appendChild(postDateAndCompany);
+
+        var igivegverdi = document.createElement('a');
+        igivegverdi.setAttribute('href', "igivegverdi");
+        igivegverdi.innerHTML = 'Dell';
+        postDateAndCompany.appendChild(igivegverdi);
+        
+        var postDateAndCompanyspan = document.createElement('span');
+        postDateAndCompanyspan.innerHTML = 'September 17 at 9:01 AM';
+        postDateAndCompany.appendChild(postDateAndCompanyspan);
+
+        var post = document.createElement('div');
+        post.classList.add('post');
+        postElements.appendChild(post);    
+        
+        var postTextDiv = document.createElement('div');
+        postTextDiv.classList.add('postTextDiv');
+        post.appendChild(postTextDiv);  
+        
+        var postTextDivP = document.createElement('p');
+        postTextDivP.innerHTML = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.';
+        postTextDiv.appendChild(postTextDivP);
+
+        var postFotoDiv = document.createElement('div');
+        postFotoDiv.classList.add('postFotoDiv');
+        post.appendChild(postFotoDiv);
+
+        var postFotoDivimg = document.createElement('img');
+        postFotoDivimg.setAttribute('src', "assets/styles/components/Zimages/posts/COVER IMAGE (1).png");
+        postFotoDivimg.setAttribute('alt', "postfoto");
+        postFotoDiv.appendChild(postFotoDivimg);
+
+        var postHeadingDiv = document.createElement('div');
+        postHeadingDiv.classList.add('postHeadingDiv');
+        post.appendChild(postHeadingDiv);
+
+        var postHeadingDivA = document.createElement('a');
+        postHeadingDivA.setAttribute('href', "#");
+        postHeadingDivA.innerHTML = 'ASYLAB.COM';
+        postHeadingDiv.appendChild(postHeadingDivA);
+
+        var postHeadingDivH4 = document.createElement('h4');
+        postHeadingDivH4.innerHTML = 'Lorem Ipsum is simply dummy text of the printing and  typesetting industry.';
+        postHeadingDiv.appendChild(postHeadingDivH4);
+
+        var postButtons = document.createElement('div');
+        postButtons.classList.add('postButtons');
+        postElements.appendChild(postButtons);
+
+        var postButton1 = document.createElement('div');
+        postButton1.classList.add('postButton');
+        postButtons.appendChild(postButton1);
+
+        var far_fa_thumbs_up = document.createElement('i');
+        // far fa-ს გადაცემას დავუკვირდეთ, ორ კლასად გადაეცემა და მძიმით გამოიყოფა!
+        far_fa_thumbs_up.classList.add('far', 'fa-thumbs-up');
+        postButton1.appendChild(far_fa_thumbs_up);
+
+        var postButton1span = document.createElement('span');
+        postButton1span.innerHTML = 'Comment';
+        postButton1.appendChild(postButton1span);
+
+        // მე-2 ღილაკი =========================================================
+
+        var postButton2 = document.createElement('div');
+        postButton2.classList.add('postButton');
+        postButtons.appendChild(postButton2);
+
+        var far_fa_comment_alt = document.createElement('i');
+        // far fa-ს გადაცემას დავუკვირდეთ, ორ კლასად გადაეცემა და მძიმით გამოიყოფა!
+        far_fa_comment_alt.classList.add('far', 'fa-comment-alt');
+        postButton2.appendChild(far_fa_comment_alt);
+
+        var postButton2span = document.createElement('span');
+        postButton2span.innerHTML = 'Comment';
+        postButton2.appendChild(postButton2span);
+
+        // მე-3 ღილაკი =========================================================
+        var postButton3 = document.createElement('div');
+        postButton3.classList.add('postButton');
+        postButtons.appendChild(postButton3);
+
+        var far_fa_share_square = document.createElement('i');
+        // far fa-ს გადაცემას დავუკვირდეთ, ორ კლასად გადაეცემა და მძიმით გამოიყოფა!
+        far_fa_share_square.classList.add('far', 'fa-share-square');
+        postButton3.appendChild(far_fa_share_square);
+
+        var postButton3span = document.createElement('span');
+        postButton3span.innerHTML = 'Share';
+        postButton3.appendChild(postButton3span);
+        // ===============================================
+        // ეს უცნაური დანამატია, აქ არ უნდა იყოს, საერთოდ ჩემი ჩასმულია ნეტა? და რაში გვჭირდება ცარიელი 
+        // <div class="post"></div> -? რამდენიმე ხაზით მაღლაც არის გამოყენებული და სხვა div-ის შვილია იქ..
+        // ამაში ხომ არ იწერება ახალი პოსტი?
+        var post = document.createElement('div');
+        post.classList.add('post');
+        posts.appendChild(post); 
+        // - ძალიან ურევს და დავაკომენტარე მაგრამ მერე აღვადგინე
+
+        
     },
     renderRating : function() {
 
