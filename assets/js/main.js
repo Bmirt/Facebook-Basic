@@ -227,6 +227,89 @@ var mainContainer = {
         var writePostbuttonspan5 = document.createElement('span');
         writePostbuttonspan5.innerHTML = 'Job';
         writePostbutton5.appendChild(writePostbuttonspan5);
+
+// ====================================================================================
+
+        var textArea = document.createElement('div');
+        textArea.classList.add('textArea');
+        createPost.appendChild(textArea);
+
+        var textAreaimg1 = document.createElement('img');
+        textAreaimg1.setAttribute('src', "assets/styles/components/Zimages/createpost/writepost/Dell-logo-small.png");
+        textAreaimg1.setAttribute('alt', "delllogo");
+        textArea.appendChild(textAreaimg1);        
+
+        var textAreaimg2 = document.createElement('img');
+        textAreaimg2.setAttribute('src', "assets/styles/components/Zimages/createpost/writepost/DROPDOWN ICON.png");
+        textAreaimg2.setAttribute('alt', "dropdownicon");
+        textArea.appendChild(textAreaimg2);
+
+        var textAreaText = document.createElement('textarea');
+        textAreaText.setAttribute('placeholder', "Write a post...");
+        textAreaText.setAttribute('cols', "60");
+        textAreaText.setAttribute('rows', "2");
+        textArea.appendChild(textAreaText); 
+        
+        var addObject = document.createElement('div');
+        addObject.classList.add('addObject');
+        createPost.appendChild(addObject);
+
+        // 1 ღილაკი ==========================================    
+
+        var addObjectbutton1 = document.createElement('div');
+        addObjectbutton1.classList.add('addObjectbutton');
+        addObject.appendChild(addObjectbutton1);
+
+        var addObjectbutton1img = document.createElement('img');
+        addObjectbutton1img.setAttribute('src', "assets/styles/components/Zimages/createpost/foto/fotouppl.png");
+        addObjectbutton1img.setAttribute('alt', "imageuploadicon");
+        addObjectbutton1.appendChild(addObjectbutton1img);
+
+        var addObjectbutton1Span = document.createElement('span');
+        addObjectbutton1Span.innerHTML = 'Photo/Video';
+        addObjectbutton1.appendChild(addObjectbutton1Span);
+
+        // 2 ღილაკი ==========================================    
+
+        var addObjectbutton2 = document.createElement('div');
+        addObjectbutton2.classList.add('addObjectbutton');
+        addObject.appendChild(addObjectbutton2);
+
+        var addObjectbutton2img = document.createElement('img');
+        addObjectbutton2img.setAttribute('src', "assets/styles/components/Zimages/createpost/foto/smile.png");
+        addObjectbutton2img.setAttribute('alt', "emotionattachicon");
+        addObjectbutton2.appendChild(addObjectbutton2img);
+
+        var addObjectbutton2Span = document.createElement('span');
+        addObjectbutton2Span.innerHTML = 'Feeling/Activ...';
+        addObjectbutton2.appendChild(addObjectbutton2Span);
+
+        // 3 ღილაკი ==========================================    
+
+        var addObjectbutton3 = document.createElement('div');
+        addObjectbutton3.classList.add('addObjectbutton');
+        addObject.appendChild(addObjectbutton3);
+
+        var addObjectbutton3img = document.createElement('img');
+        addObjectbutton3img.setAttribute('src', "assets/styles/components/Zimages/createpost/foto/location.png");
+        addObjectbutton3img.setAttribute('alt', "attachlocationicon");
+        addObjectbutton3.appendChild(addObjectbutton3img);
+
+        var addObjectbutton3Span = document.createElement('span');
+        addObjectbutton3Span.innerHTML = 'Check in';
+        addObjectbutton3.appendChild(addObjectbutton3Span);
+
+        // 4 ღილაკი ==========================================    
+
+        var addObjectbutton4 = document.createElement('div');
+        addObjectbutton4.classList.add('addObjectbutton');
+        addObject.appendChild(addObjectbutton4);
+
+        var addObjectbutton4img = document.createElement('img');
+        addObjectbutton4img.setAttribute('src', "assets/styles/components/Zimages/createpost/foto/menu.png");
+        addObjectbutton4img.setAttribute('alt', "menuicon");
+        addObjectbutton4.appendChild(addObjectbutton4img);
+
     },
     renderRating : function() {
 
