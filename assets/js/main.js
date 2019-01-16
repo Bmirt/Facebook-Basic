@@ -431,11 +431,89 @@ var mainContainer = {
         post.classList.add('post');
         posts.appendChild(post); 
         // - ძალიან ურევს და დავაკომენტარე მაგრამ მერე აღვადგინე
-
-        
     },
     renderRating : function() {
+        //  რადგან pageContent უკვე შევქმენით, მაგრამ mainContainer.renderPostArea();
+        //  აქ ჩემი აზრით ეს რომ დაგვჭირდა, html არქიტექტურის შეცდომაა (ჩემი)
+        var pageContent = document.querySelector('.pageContent');
 
+        var otherpageinfo = document.createElement('div');
+        otherpageinfo.classList.add('otherpageinfo');
+        pageContent.appendChild(otherpageinfo);
+
+        var rating = document.createElement('div');
+        rating.classList.add('rating');
+        otherpageinfo.appendChild(rating);
+
+        var ratingimg = document.createElement('img');
+        ratingimg.setAttribute('src', "assets/styles/components/Zimages/otherinfo/ICON.png");
+        ratingimg.setAttribute('alt', "ratingicon");
+        rating.appendChild(ratingimg);
+        
+        var ratingspan = document.createElement('span');
+        ratingspan.innerHTML = 'No Rating Yet';
+        rating.appendChild(ratingspan);
+        
+        var story = document.createElement('div');
+        story.classList.add('story');
+        otherpageinfo.appendChild(story);
+
+        var storyimg = document.createElement('img');
+        storyimg.setAttribute('src', "assets/styles/components/Zimages/otherinfo/COVER IMAGE.png");
+        storyimg.setAttribute('alt', "storyfoto");
+        story.appendChild(storyimg); 
+        
+        var storyspan = document.createElement('span');
+        storyspan.innerHTML = 'Our story';
+        story.appendChild(storyspan);
+
+        var storyA = document.createElement('a');
+        storyA.setAttribute('href', "#");
+        storyA.innerHTML = '+Tell people about your business';
+        story.appendChild(storyA);
+
+        var community = document.createElement('div');
+        community.classList.add('community');
+        otherpageinfo.appendChild(community);
+        
+        var communitydivheader = document.createElement('div');
+        communitydivheader.classList.add('communitydivheader');
+        community.appendChild(communitydivheader);
+
+        var communitydivheaderspan = document.createElement('span');
+        communitydivheaderspan.innerHTML = 'Community';
+        communitydivheader.appendChild(communitydivheaderspan);
+
+        var communitydivheaderA = document.createElement('a');
+        communitydivheaderA.setAttribute('href', "#");
+        communitydivheaderA.innerHTML = 'See All';
+        communitydivheader.appendChild(communitydivheaderA);
+
+        var communitydivinfo1 = document.createElement('div');
+        communitydivinfo1.classList.add('communitydivinfo');
+        community.appendChild(communitydivinfo1);
+
+        var fas_fa_thumbs_up = document.createElement('i');
+        // fas fa-ს გადაცემას დავუკვირდეთ, ორ კლასად გადაეცემა და მძიმით გამოიყოფა!
+        fas_fa_thumbs_up.classList.add('fas', 'fa-thumbs-up');
+        communitydivinfo1.appendChild(fas_fa_thumbs_up);
+
+        var communitydivinfo1Span = document.createElement('span');
+        communitydivinfo1Span.innerHTML = '150 people like this';
+        communitydivinfo1.appendChild(communitydivinfo1Span);
+
+        var communitydivinfo2 = document.createElement('div');
+        communitydivinfo2.classList.add('communitydivinfo');
+        community.appendChild(communitydivinfo2);
+
+        var fas_fa_rss = document.createElement('i');
+        // fas fa-ს გადაცემას დავუკვირდეთ, ორ კლასად გადაეცემა და მძიმით გამოიყოფა!
+        fas_fa_rss.classList.add('fas', 'fa-rss');
+        communitydivinfo2.appendChild(fas_fa_rss);
+
+        var communitydivinfo2Span = document.createElement('span');
+        communitydivinfo2Span.innerHTML = '150 people follow this';
+        communitydivinfo2.appendChild(communitydivinfo2Span);
     },
     render : function() {
         mainContainer.renderCover();
