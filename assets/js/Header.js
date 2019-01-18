@@ -1,3 +1,9 @@
+var General = {
+    root : document.getElementById('app-root'),
+    header: ''
+}
+
+
 var Header = {
     headerElement: '',
     headerLogo: '',

@@ -1,6 +1,7 @@
 .chatContainer {
     position: fixed;
     display: flex;
+    flex-direction: row-reverse;
     bottom: 0px;
     width: 70%;
     height: 285px;

@@ -1,7 +1,8 @@
 <html>
 <head>
-    <title>Facebook.Js</title>
+    <title>Facebook</title>
     <meta charset="UTF-8">
+    <link rel="icon" href="https://scontent.ftbs5-1.fna.fbcdn.net/v/t1.0-9/31562081_10157324683366729_5005221974700457984_n.png?_nc_cat=1&_nc_ht=scontent.ftbs5-1.fna&oh=79a96ad4d6135f1aaf3c9379893555d8&oe=5CC67579" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="assets/styles/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
@@ -11,182 +12,7 @@
     <header class="header--container" id="app-root"></header>
     <main class="main">
         <aside class="leftSidebar"></aside>
-        <section class="mainInfoContainer">
-<!--     +++<div class="coverFoto">
-             +++<img src="assets/styles/components/Zimages/dell cover.jpg" alt="coverimage">
-         +++</div>
-=======================================================
-         +++<div class="coverButtonsdiv">
-             +++<div class="coverButtonsWrapper">
-                 +++<div class="leftCoverButtonsdiv">
-                     +++<div class="leftCoverButton">
-                         +++<a href="?" class="leftCoverButtonA">
-                             +++<span class="leftCoverButtonSpan">
-                                 +++<i class="fas fa-thumbs-up"></i>
-                             +++</span>
-                             +++<span class="leftCoverButtonSpan">Like</span>
-                         +++</a>
-                     +++</div>                            
-                     +++<div class="leftCoverButton">
-                         +++<a href="?" class="leftCoverButtonA">
-                             +++<span class="leftCoverButtonSpan">
-                                 +++<i class="fas fa-rss"></i>
-                             +++</span>
-                             +++<span class="leftCoverButtonSpan">Follow</span>
-                         +++</a>
-                     +++</div>                            
-                     +++<div class="leftCoverButton">
-                         +++<a href="?" class="leftCoverButtonA">
-                             +++<span class="leftCoverButtonSpan">
-                                 +++<i class="fas fa-share"></i>
-                             +++</span>
-                             +++<span class="leftCoverButtonSpan">Share</span>
-                         +++</a>
-                     +++</div>                            
-                     +++<div class="leftCoverButton">
-                         +++<a href="?" class="leftCoverButtonA">
-                             +++<span class="leftCoverButtonSpan">
-                                 +++<i class="fas fa-ellipsis-h"></i>
-                             +++</span>
-                         +++</a>
-                     +++</div>
-                 +++</div>
-                 +++<div class="rightCoverButtonsdiv">
-                     +++<div class="rightCoverButton">
-                         +++<a href="?" class="rightCoverButtonA">
-                             +++<span class="rightCoverButtonSpan">Learn More</span>
-                             +++<span class="rightCoverButtonSpan">
-                                 +++<i class="fas fa-pen"></i>
-                             +++</span>
-                         +++</a>
-                     +++</div>
-                 +++</div>
-             +++</div>
-         +++</div>
-         +++<div class="pageContent">
-             +++<div class="postsArea">
-                 +++<div class="createPost">
-                     +++<div class="writePost">
-                         +++<div class="writePostbutton">
-                             +++<img src="assets/styles/components/Zimages/createpost/createpost/Pen.png" alt="writeposticon">
-                             +++<span>Create Post</span>
-                         +++</div>
-                         +++<div class="writePostbutton">
-                             +++<img src="assets/styles/components/Zimages/createpost/createpost/live.png" alt="Livevideoicon">
-                             +++<span>Live</span>
-                         +++</div>
-                         +++<div class="writePostbutton">
-                             +++<img src="assets/styles/components/Zimages/createpost/createpost/calendar.png" alt="Eventscedjolericon">
-                             +++<span>Event</span>
-                         +++</div>
-                         +++<div class="writePostbutton">
-                             +++<img src="assets/styles/components/Zimages/createpost/createpost/percent.png" alt="makeanoffericon">
-                             +++<span>Offer</span>
-                         +++</div>
-                         +++<div class="writePostbutton">
-                             +++<img src="assets/styles/components/Zimages/createpost/createpost/briefcase.png" alt="announceajobicon">
-                             +++<span>Job</span>
-                         +++</div>
-                     +++</div>
-                     +++<div class="textArea">
-                         +++<img src="assets/styles/components/Zimages/createpost/writepost/Dell-logo-small.png" alt="delllogo">
-                         +++<img src="assets/styles/components/Zimages/createpost/writepost/DROPDOWN ICON.png" alt="dropdownicon">
-                         +++<textarea placeholder="Write a post..." cols="60" rows="2"></textarea>
-                     +++</div>
-                     +++<div class="addObject">
-                         +++<div class="addObjectbutton">
-                             +++<img src="assets/styles/components/Zimages/createpost/foto/fotouppl.png" alt="imageuploadicon">
-                             +++<span>Photo/Video</span>
-                         +++</div>
-                         +++<div class="addObjectbutton">
-                             +++<img src="assets/styles/components/Zimages/createpost/foto/smile.png" alt="emotionattachicon">
-                            +++ <span>Feeling/Activ...</span>
-                         +++</div>
-                         +++<div class="addObjectbutton">
-                             +++<img src="assets/styles/components/Zimages/createpost/foto/location.png" alt="attachlocationicon">
-                             +++<span>Check in</span>
-                         +++</div>
-                         +++<div class="addObjectbutton">
-                             +++<img src="assets/styles/components/Zimages/createpost/foto/menu.png" alt="menuicon">
-                         +++</div>
-                     +++</div>
-                 +++</div>
-                 +++<div class="posts">
-                     +++<div class="postElements">
-                         +++<div class="companyInfoForPost">
-                             +++<div class="postLogodiv">
-                                 +++<img src="assets/styles/components/Zimages/createpost/writepost/Dell-logo-small.png" alt="companylogoicon">
-                             +++</div>
-                             +++<div class="postDateAndCompany">
-                                 +++<a href="igivegverdi">Dell</a>
-                                 +++<span>September 17 at 9:01 AM</span>
-                             +++</div>
-                         +++</div>
-                         +++<div class="post">
-                             +++<div class="postTextDiv">
-                                 +++<p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                       industry. Lorem Ipsum has been the industry's standard dummy text
-                                       ever since the 1500s, when an unknown printer took a galley of type
-                                       and scrambled it to make a type specimen book.
-                                 +++</p>
-                             +++</div>
-                             +++<div class="postFotoDiv">
-                                 +++<img src="assets/styles/components/Zimages/posts/COVER IMAGE (1).png" alt="postfoto">
-                             +++</div>
-                             +++<div class="postHeadingDiv">
-                                 +++<a href="#">ASYLAB.COM</a>
-                                 +++<h4>Lorem Ipsum is simply dummy text of the printing and  typesetting
-                                        industry.
-                                 +++</h4>
-                             +++</div>
-                         +++</div>
-                         +++<div class="postButtons">
-                             +++<div class="postButton">
-                                 +++<i class="far fa-thumbs-up"></i>
-                                 +++<span>Like</span>
-                             +++</div>
-                             +++<div class="postButton">
-                                 +++<i class="far fa-comment-alt"></i>
-                                 +++<span>Comment</span>
-                             +++</div>
-                             +++<div class="postButton">
-                                 +++<i class="far fa-share-square"></i>
-                                 +++<span>Share</span>
-                             +++</div>
-                         +++</div>
-                     +++</div>
-                     +++<div class="post"></div>
-                 +++</div>
-             +++</div> 
-             +++<div class="otherpageinfo">
-                 +++<div class="rating">
-                     +++<img src="assets/styles/components/Zimages/otherinfo/ICON.png" alt="ratingicon">
-                     +++<span>No Rating Yet</span>
-                 +++</div>
-                 +++<div class="story">
-                     +++<img src="assets/styles/components/Zimages/otherinfo/COVER IMAGE.png" alt="storyfoto">
-                     +++<span>Our story</span>
-                     +++<a href="#">+Tell people about your business</a>
-                 +++</div>
-                 +++<div class="community">
-                     +++<div class="communitydivheader">
-                         +++<span>Community</span>
-                         +++<a href="#">See All</a>
-                     +++</div>
-                     +++<div class="communitydivinfo">
-                         +++<i class="fas fa-thumbs-up"></i>
-                         +++<span>150 people like this</span>
-                     +++</div>
-                     +++<div class="communitydivinfo">
-                         +++<i class="fas fa-rss"></i>
-                         +++<span>150 people follow this</span>
-                     +++</div>
-                 +++</div>
-
-             +++</div>
-         +++</div>
--->            
-    
+        <section class="mainInfoContainer">  
         </section>
     </main>
 
@@ -195,28 +21,20 @@
 
 
     <!-- MOCKS -->
-    <script src="assets/mocks/statuses.js"></script>
-    <script src="assets/mocks/user.js"></script>
     <script src="assets/mocks/friends.js"></script>
     <!-- FUNCTIONS -->
-    <script src="assets/js/General.js"></script>
     <script src="assets/js/Login.js"></script>
-    <script src="assets/js/Friends.js"></script>
     <script src="assets/js/Header.js"></script>
+    <script>Header.render();</script>
     <script src="assets/js/leftSidebar.js"></script>
+    <script>leftSidebar.render();</script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/Timeline.js"></script>
-    <!-- assets/js/Posts.js ქვემოთ გადმოვიტანე, რადგან არ წერდა სხვანაირად ახალ პოსტს (ზვიადი) -->
+    <script>mainContainer.render();</script>
+    <script src="assets/js/Posts.js"></script>
+    <script src="assets/mocks/database.js"></script>
     <script src="assets/js/chat.js"></script>
     <script src="assets/js/friendList.js"></script>
-    <script src="assets/mocks/database.js"></script>
-    <script src="assets/js/App.js"></script>
-    <script>Header.render();</script>
     <script>friendList.render();</script>
-    <script>leftSidebar.render();</script>
-    <script>mainContainer.render();</script>
-    <!-- ეს ქვემოთ გადმოვიტანე, რადგან არ წერდა სხვანაირად ახალ პოსტს (ზვიადი) -->
-    <script src="assets/js/Posts.js"></script>
+    
 </body>
-
 </html>
