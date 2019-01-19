@@ -1,0 +1,125 @@
+@import "../settings/index";
+@import "../tools/index";
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: $mainColor;
+    .logIn {
+        width: 100vw;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .logIn__Information{
+            input[type=text] {
+                padding:0.4em; 
+                border:2px solid $secondaryColor; 
+                border-radius: 5px;
+                outline: none;
+            }
+            input[type=text]:focus {
+                border-color:$backgroundColor;
+                outline: none;
+            }
+            input[type=password] {
+                padding:0.4em; 
+                border:2px solid $secondaryColor; 
+                border-radius: 5px;
+                outline: none;
+            }
+            input[type=password]:focus {
+                border-color:$backgroundColor;
+                outline: none;
+            }
+            .submit {
+                padding:0.4em 1.5em; 
+                background:$backgroundColor; 
+                border:0 none;
+                cursor:pointer;
+                border-radius: 5px; 
+                outline: none;
+                transition: all 1s;
+            }
+            .submit:hover {
+                background: $mainColor;
+                color: $backgroundColor;
+            }
+        }
+        
+    }
+    .main {
+        width: 100vw;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("Zimages/hangout.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        min-width: 100%;
+        .welcome {
+            width: 100%;
+            text-align: center;
+            font-size: 5rem;
+            color: #fff;
+            opacity: 0.7;
+            animation: animation 0.7s 1 ease-in-out
+        }
+    }
+    .register {
+        width: 100vw;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .register__Information{
+            input[type=text] {
+                padding:0.4em; 
+                border:2px solid $secondaryColor; 
+                border-radius: 5px;
+                outline: none;
+            }
+            input[type=text]:focus {
+                border-color:$backgroundColor;
+                outline: none;
+            }
+            input[type=password] {
+                padding:0.4em; 
+                border:2px solid $secondaryColor; 
+                border-radius: 5px;
+                outline: none;
+            }
+            input[type=password]:focus {
+                border-color:$backgroundColor;
+                outline: none;
+            }
+            .submitR {
+                padding:0.4em 1.5em; 
+                background:$backgroundColor; 
+                border:0 none;
+                cursor:pointer;
+                border-radius: 5px; 
+                outline: none;
+                transition: all 1s;
+            }
+            .submitR:hover {
+                background: $mainColor;
+                color: $backgroundColor;
+            }
+        }
+    }
+}
+
+input {
+    margin-right: 0.5em;
+}
+
+@-webkit-keyframes animation {
+    0% {
+        width: 10%;
+    }
+    100% {
+        width: 50%;
+    }
+}

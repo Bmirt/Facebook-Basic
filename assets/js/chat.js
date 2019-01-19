@@ -40,6 +40,17 @@ var displayPopUp = function(item) {
         createpopUpBody.classList.add('PopUp__body')
         findchatPopUp.appendChild(createpopUpBody)
 
+        var findPopUpBody = document.querySelector('.PopUp__body')
+        var createmsgLeft = document.createElement('div')
+        createmsgLeft.classList.add('left__message')
+        createmsgLeft.innerHTML = 'გამო რა გარეთ'
+        findPopUpBody.appendChild(createmsgLeft)
+
+        var createmsgRight = document.createElement('div')
+        createmsgRight.classList.add('right__message')
+        createmsgRight.innerHTML = 'დამაცადე 1 წუთი'
+        findPopUpBody.appendChild(createmsgRight)
+
         var createpopUpbottom = document.createElement('div')
         createpopUpbottom.classList.add('PopUp__bottom')
         findchatPopUp.appendChild(createpopUpbottom)
@@ -86,6 +97,17 @@ var displayPopUp = function(item) {
         createpopUpBody.classList.add('PopUp__body')
         findchatPopUp[1].appendChild(createpopUpBody)
 
+        var findPopUpBody = document.querySelectorAll('.PopUp__body')
+        var createmsgLeft = document.createElement('div')
+        createmsgLeft.classList.add('left__message')
+        createmsgLeft.innerHTML = 'რას შვრები ?'
+        findPopUpBody[1].appendChild(createmsgLeft)
+
+        var createmsgRight = document.createElement('div')
+        createmsgRight.classList.add('right__message')
+        createmsgRight.innerHTML = 'რავი შენ ?'
+        findPopUpBody[1].appendChild(createmsgRight)
+
         var createpopUpbottom = document.createElement('div')
         createpopUpbottom.classList.add('PopUp__bottom')
         findchatPopUp[1].appendChild(createpopUpbottom)
@@ -131,6 +153,17 @@ var displayPopUp = function(item) {
         var createpopUpBody = document.createElement('div')
         createpopUpBody.classList.add('PopUp__body')
         findchatPopUp[2].appendChild(createpopUpBody)
+
+        var findPopUpBody = document.querySelectorAll('.PopUp__body')
+        var createmsgLeft = document.createElement('div')
+        createmsgLeft.classList.add('left__message')
+        createmsgLeft.innerHTML = 'აქ ხარ ?'
+        findPopUpBody[2].appendChild(createmsgLeft)
+
+        var createmsgRight = document.createElement('div')
+        createmsgRight.classList.add('right__message')
+        createmsgRight.innerHTML = 'კი რაარი ?'
+        findPopUpBody[2].appendChild(createmsgRight)
 
         var createpopUpbottom = document.createElement('div')
         createpopUpbottom.classList.add('PopUp__bottom')

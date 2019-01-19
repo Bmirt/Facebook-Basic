@@ -39,6 +39,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   position: fixed;
+  z-index: 1;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -282,6 +283,11 @@ body {
   position: relative;
 }
 
+.header__logo__input {
+  padding: 0.5em;
+  outline: none;
+}
+
 body {
   background: #e6e8ec;
 }
@@ -324,6 +330,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   position: fixed;
+  z-index: 1;
 }
 
 .main .leftSidebar .leftSidebar__container .dellLogo {
@@ -957,6 +964,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   position: fixed;
+  z-index: 1;
 }
 
 .dellLogo {
@@ -999,6 +1007,7 @@ body {
   right: 0;
   top: 100px;
   height: calc(100vh - 80px);
+  z-index: 1;
   width: 200px;
   background: #e6e8ec;
   border-left: 1px solid #cccccc;
@@ -1098,6 +1107,34 @@ body {
   border-left: 1px solid rgba(0, 0, 0, 0.3);
   border-right: 1px solid rgba(0, 0, 0, 0.3);
   overflow-y: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.chatContainer .chatPopUp .PopUp__body .left__message {
+  display: inline-block;
+  background: #f1f0f0;
+  padding: 0.5em;
+  border-radius: 30px;
+  margin-bottom: 2px;
+}
+
+.chatContainer .chatPopUp .PopUp__body .right__message {
+  background: #0084ff;
+  display: inline-block;
+  color: white;
+  padding: 0.5em;
+  border-radius: 30px;
+  margin-top: 3em;
 }
 
 .chatContainer .chatPopUp .PopUp__bottom {

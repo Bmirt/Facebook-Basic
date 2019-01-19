@@ -21,6 +21,7 @@ body {
             display: flex;
             flex-direction: column;
             position: fixed;
+            z-index: 1;
             .dellLogo {
                 width: 185px;
                 height: 185px;
@@ -459,6 +460,7 @@ body {
     display: flex;
     flex-direction: column;
     position: fixed;
+    z-index: 1;
 }
 
 .dellLogo {

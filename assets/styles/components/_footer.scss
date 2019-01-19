@@ -32,6 +32,25 @@
             border-left: 1px solid rgba(0, 0, 0, 0.3);
             border-right: 1px solid rgba(0, 0, 0, 0.3);
             overflow-y: auto;
+            display: flex;
+            align-items:flex-start;
+            align-content:flex-start;
+            justify-content: space-between;
+            .left__message {
+                display:inline-block;
+                background: #f1f0f0;
+                padding: 0.5em;
+                border-radius: 30px;
+                margin-bottom: 2px;
+            }
+            .right__message {
+                background: #0084ff;
+                display: inline-block;
+                color: white;
+                padding: 0.5em;
+                border-radius: 30px;
+                margin-top: 3em;
+            }
         }
         .PopUp__bottom {
             width: 100%;

@@ -1,0 +1,188 @@
+@font-face {
+  font-family: mainFont;
+  src: url(settings/SFUIText-Regular.ttf);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Navigation__list__left__list a {
+  color: black;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: mainFont, Helvetica, sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #3a5ca9;
+}
+
+body .logIn {
+  width: 100vw;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .logIn .logIn__Information input[type=text] {
+  padding: 0.4em;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  outline: none;
+}
+
+body .logIn .logIn__Information input[type=text]:focus {
+  border-color: #e6e8ec;
+  outline: none;
+}
+
+body .logIn .logIn__Information input[type=password] {
+  padding: 0.4em;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  outline: none;
+}
+
+body .logIn .logIn__Information input[type=password]:focus {
+  border-color: #e6e8ec;
+  outline: none;
+}
+
+body .logIn .logIn__Information .submit {
+  padding: 0.4em 1.5em;
+  background: #e6e8ec;
+  border: 0 none;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+body .logIn .logIn__Information .submit:hover {
+  background: #3a5ca9;
+  color: #e6e8ec;
+}
+
+body .main {
+  width: 100vw;
+  height: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("Zimages/hangout.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 100%;
+}
+
+body .main .welcome {
+  width: 100%;
+  text-align: center;
+  font-size: 5rem;
+  color: #fff;
+  opacity: 0.7;
+  -webkit-animation: animation 0.7s 1 ease-in-out;
+          animation: animation 0.7s 1 ease-in-out;
+}
+
+body .register {
+  width: 100vw;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .register .register__Information input[type=text] {
+  padding: 0.4em;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  outline: none;
+}
+
+body .register .register__Information input[type=text]:focus {
+  border-color: #e6e8ec;
+  outline: none;
+}
+
+body .register .register__Information input[type=password] {
+  padding: 0.4em;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  outline: none;
+}
+
+body .register .register__Information input[type=password]:focus {
+  border-color: #e6e8ec;
+  outline: none;
+}
+
+body .register .register__Information .submitR {
+  padding: 0.4em 1.5em;
+  background: #e6e8ec;
+  border: 0 none;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+body .register .register__Information .submitR:hover {
+  background: #3a5ca9;
+  color: #e6e8ec;
+}
+
+input {
+  margin-right: 0.5em;
+}
+
+@-webkit-keyframes animation {
+  0% {
+    width: 10%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=login.css.map */
